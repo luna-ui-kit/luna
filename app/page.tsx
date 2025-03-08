@@ -10,7 +10,10 @@ export default function Home() {
 
         <Card elevation={2} sx={{ width: '100px', margin: 'auto' }}>
           <Typography variant='bodyLarge'>Heeeeey</Typography>
-          <Button variant='outlined' size='medium'>
+
+          <Button variant='secondary'>werty</Button>
+
+          <Button disableRipple variant='link'>
             werty
           </Button>
         </Card>

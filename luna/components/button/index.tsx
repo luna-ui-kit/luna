@@ -23,8 +23,27 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
     {
       props: { variant: 'text' },
       style: {
+        color: theme.palette.grey[900]
+      }
+    },
+    {
+      props: { variant: 'link' },
+      style: {
         color: theme.palette.grey[900],
-        borderColor: theme.palette.grey[200]
+        textDecoration: 'underline',
+        padding: '0',
+        minWidth: 'auto',
+        '&:hover': { textDecoration: 'underline' },
+        '&:active': { textDecoration: 'underline' },
+        '&:focus': { textDecoration: 'underline' }
+      }
+    },
+    {
+      props: { variant: 'secondary' },
+      style: {
+        color: theme.palette.grey[900],
+        backgroundColor: theme.palette.grey[50],
+        '&:hover': { backgroundColor: theme.palette.grey[100] }
       }
     },
 
