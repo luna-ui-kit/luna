@@ -1,5 +1,4 @@
 import { deepOrange, grey, indigo } from '@mui/material/colors'
-import shadows from './shadows'
 import Typography from './typography'
 
 const themeOptions = {
@@ -13,10 +12,9 @@ const themeOptions = {
     },
     divider: grey[200],
     background: {
-      paper: grey[50],
-      default: '#fff'
-    },
-    shadows: shadows()
+      default: grey[50],
+      paper: '#fff'
+    }
   },
   ...Typography
 }

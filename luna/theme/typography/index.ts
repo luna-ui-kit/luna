@@ -2,6 +2,7 @@ import { grey } from '@mui/material/colors'
 
 const Typography = {
   typography: {
+    fontFamily: "Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     displayLarge: {
       fontSize: '64px',
       color: grey[900],

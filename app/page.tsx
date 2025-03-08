@@ -1,18 +1,19 @@
 import { IconArrowLeft } from '@tabler/icons-react'
-import Button from '@mui/material/Button'
-import { Typography } from '@mui/material'
+import { Card, Typography } from '@mui/material'
+import { Button } from '@/luna/components'
 
 export default function Home() {
   return (
     <div>
-      <main>
+      <main style={{ height: '100vh' }}>
         <IconArrowLeft />
 
-        <Typography variant='bodyLarge'>Heeeeey</Typography>
-
-        <Button variant='contained' color='primary'>
-          Hello world
-        </Button>
+        <Card elevation={2} sx={{ width: '100px', margin: 'auto' }}>
+          <Typography variant='bodyLarge'>Heeeeey</Typography>
+          <Button variant='outlined' size='medium'>
+            werty
+          </Button>
+        </Card>
       </main>
     </div>
   )

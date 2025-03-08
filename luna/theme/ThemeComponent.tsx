@@ -2,7 +2,7 @@
 import { ReactNode } from 'react'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import themeOptions from './ThemeOptions'
-import Overrides from './overrides'
+import { Shadows } from './shadows'
 
 interface Props {
   children: ReactNode
@@ -10,10 +10,12 @@ interface Props {
 
 const ThemeComponent = (props: Props) => {
   const { children } = props
-  const theme = createTheme({ ...themeOptions })
+  const theme = createTheme({
+    ...themeOptions
+  })
 
   return (
-    <ThemeProvider theme={{ ...theme, ...Overrides }}>{children}</ThemeProvider>
+    <ThemeProvider theme={{ ...theme, ...Shadows }}>{children}</ThemeProvider>
   )
 }
 
