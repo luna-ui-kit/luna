@@ -68,9 +68,9 @@ export default function Page() {
               label='Switch'
             />
           </FormGroup>
-        </Card>
 
-        <TextField label='Outlined' />
+          <TextField label='Outlined' />
+        </Card>
       </main>
     </div>
   )
