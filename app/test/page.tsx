@@ -69,7 +69,7 @@ export default function Page() {
             />
           </FormGroup>
 
-          <TextField label='Outlined' />
+          <TextField label='Outlined' multiline minRows={4} />
         </Card>
       </main>
     </div>
