@@ -4,4 +4,4 @@ This open-source UI Kit is built on MUI (Material Design 2), and it’s here to 
 
 ## Figma Link
 
-For more information [Click Here](https://es.wikipedia.org/wiki/Wikipedia:Portada)
+For more information [Click Here](https://www.figma.com/community/file/1480151487044683226/luna-ui-kit)
