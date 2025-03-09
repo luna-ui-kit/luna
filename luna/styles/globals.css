@@ -5,10 +5,6 @@ body {
   background-color: #fafafa;
 }
 
-* {
-  box-sizing: border-box !important;
-}
-
 html,
 body {
   width: 100%;
