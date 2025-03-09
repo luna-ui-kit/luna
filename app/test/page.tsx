@@ -7,7 +7,7 @@ import {
   FormControl,
   RadioGroup
 } from '@mui/material'
-import { Button, Checkbox, Radio } from '@/luna/components'
+import { Button, Checkbox, Radio, Switch } from '@/luna/components'
 
 export default function Page() {
   return (
@@ -61,6 +61,13 @@ export default function Page() {
               />
             </RadioGroup>
           </FormControl>
+
+          <FormGroup>
+            <FormControlLabel
+              control={<Switch sx={{ m: 1 }} defaultChecked />}
+              label='Switch'
+            />
+          </FormGroup>
         </Card>
       </main>
     </div>
