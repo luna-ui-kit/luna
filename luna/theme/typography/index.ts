@@ -1,6 +1,6 @@
 import { grey } from '@mui/material/colors'
 
-const Typography = {
+export const Typography = {
   typography: {
     fontFamily: "Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     displayLarge: {
@@ -134,5 +134,3 @@ const Typography = {
     }
   }
 }
-
-export default Typography

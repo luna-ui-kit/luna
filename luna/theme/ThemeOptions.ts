@@ -1,7 +1,7 @@
 import { deepOrange, grey, indigo } from '@mui/material/colors'
-import Typography from './typography'
+import { Typography } from './typography'
 
-const themeOptions = {
+export const themeOptions = {
   palette: {
     primary: indigo,
     secondary: deepOrange,
@@ -18,5 +18,3 @@ const themeOptions = {
   },
   ...Typography
 }
-
-export default themeOptions

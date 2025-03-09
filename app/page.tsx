@@ -2,7 +2,7 @@ import { IconArrowLeft } from '@tabler/icons-react'
 import { Card, Typography } from '@mui/material'
 import { Button } from '@/luna/components'
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
       <main style={{ height: '100vh' }}>
@@ -11,11 +11,9 @@ export default function Home() {
         <Card elevation={2} sx={{ width: '100px', margin: 'auto' }}>
           <Typography variant='bodyLarge'>Heeeeey</Typography>
 
-          <Button variant='secondary'>werty</Button>
+          <Button variant='contained'>werty</Button>
 
-          <Button disableRipple variant='link'>
-            werty
-          </Button>
+          <Button variant='link'>werty</Button>
         </Card>
       </main>
     </div>
