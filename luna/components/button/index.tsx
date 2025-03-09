@@ -8,7 +8,7 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
   textTransform: 'none',
   borderRadius: 0,
   boxShadow: 'none',
-  fontWeight: 400,
+  fontWeight: 500,
   '&:hover': { boxShadow: 'none' },
   '&:active': { boxShadow: 'none' },
 
