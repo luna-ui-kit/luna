@@ -1,11 +1,10 @@
-import { BlockWrapper, Button } from '@/luna/components'
+import { BlockWrapper } from '@/luna/components'
 import { AppBar, Box, IconButton, useTheme } from '@mui/material'
 import { IconMenu2, IconSearch } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { MenuLinks } from './menu'
 
-export default function Navbar001() {
+export function Navbar002() {
   const theme = useTheme()
 
   return (
@@ -27,24 +26,11 @@ export default function Navbar001() {
           </Link>
 
           <Box sx={{ display: 'flex', gap: '8px' }}>
-            <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-              {MenuLinks.map((menuItem, i) => (
-                <Button
-                  component='a'
-                  key={i}
-                  href={menuItem.link}
-                  variant='text'
-                >
-                  {menuItem.name}
-                </Button>
-              ))}
-            </Box>
-
             <IconButton>
               <IconSearch />
             </IconButton>
 
-            <IconButton sx={{ display: { xs: 'flex', md: 'none' } }}>
+            <IconButton>
               <IconMenu2 />
             </IconButton>
           </Box>
