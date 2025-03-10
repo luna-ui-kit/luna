@@ -2,6 +2,7 @@ import { BlockWrapper } from '@/luna/components'
 import { AppBar, Box, IconButton, useTheme } from '@mui/material'
 import { IconMenu2, IconSearch } from '@tabler/icons-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Navbar002() {
   const theme = useTheme()
@@ -20,7 +21,9 @@ export default function Navbar002() {
             justifyContent: 'space-between'
           }}
         >
-          <Image src='/Logo.webp' alt='' width={83} height={24} />
+          <Link href='/'>
+            <Image src='/Logo.webp' alt='' width={83} height={24} />
+          </Link>
 
           <Box sx={{ display: 'flex', gap: '8px' }}>
             <IconButton>
