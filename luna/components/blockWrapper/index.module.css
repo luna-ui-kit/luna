@@ -1,0 +1,28 @@
+.wrapper,
+.wrapperFullWidth {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1760px;
+  margin: auto;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 425px) {
+  .wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

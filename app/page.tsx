@@ -1,7 +1,5 @@
+import { BlockWrapper } from '@/luna/components'
+
 export default function Page() {
-  return (
-    <div>
-      <main style={{ height: '100vh' }}>Soon...</main>
-    </div>
-  )
+  return <BlockWrapper>Soon...</BlockWrapper>
 }

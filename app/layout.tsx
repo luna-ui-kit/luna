@@ -1,3 +1,4 @@
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import { ThemeComponent } from '@/luna/theme/ThemeComponent'
 import { Poppins } from 'next/font/google'
 import '@/luna/styles/globals.css'
@@ -15,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang='en' className={poppins.className}>
       <body>
-        <ThemeComponent>{children}</ThemeComponent>
+        <AppRouterCacheProvider>
+          <ThemeComponent>{children}</ThemeComponent>
+        </AppRouterCacheProvider>
       </body>
     </html>
   )
