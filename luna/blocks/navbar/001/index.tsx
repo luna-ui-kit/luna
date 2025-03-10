@@ -1,3 +1,4 @@
+'use client'
 import { BlockWrapper, Button } from '@/luna/components'
 import { AppBar, Box, IconButton, useTheme } from '@mui/material'
 import { IconMenu2, IconSearch } from '@tabler/icons-react'
@@ -5,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { MenuLinks } from './menu'
 
-export default function Navbar001() {
+export function Navbar001() {
   const theme = useTheme()
 
   return (

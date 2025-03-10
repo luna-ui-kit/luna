@@ -4,7 +4,7 @@ import { IconMenu2, IconSearch } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Navbar002() {
+export function Navbar002() {
   const theme = useTheme()
 
   return (
