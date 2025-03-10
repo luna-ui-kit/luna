@@ -1,0 +1,1 @@
+Want to contribute to this project? Whether you’re into design or development, we’d love to have you on board! Feel free to reach out to me directly or jump right in and contribute, it’s all about growing together.
