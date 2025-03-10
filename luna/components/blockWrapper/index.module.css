@@ -1,4 +1,7 @@
-.wrapper & .wrapperFullWidth {
+.wrapper,
+.wrapperFullWidth {
+  box-sizing: border-box;
+  width: 100%;
   max-width: 1760px;
   margin: auto;
 }

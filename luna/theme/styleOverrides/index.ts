@@ -1,3 +1,4 @@
+import { grey } from '@mui/material/colors'
 import { Shadows } from '../shadows'
 
 export const StyleOverrides = {
@@ -16,6 +17,15 @@ export const StyleOverrides = {
           '&.MuiInputLabel-shrink': {
             top: '0'
           }
+        }
+      }
+    },
+    MuiIconButton: {
+      styleOverrides: {
+        root: {
+          border: '1px solid',
+          borderColor: grey[200],
+          borderRadius: 0
         }
       }
     }
