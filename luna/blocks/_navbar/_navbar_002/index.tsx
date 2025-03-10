@@ -1,3 +1,4 @@
+'use client'
 import { BlockWrapper } from '@/luna/components'
 import { AppBar, Box, IconButton, useTheme } from '@mui/material'
 import { IconMenu2, IconSearch } from '@tabler/icons-react'
