@@ -9,6 +9,15 @@ export const StyleOverrides = {
           borderRadius: 0
         }
       }
+    },
+    MuiInputLabel: {
+      styleOverrides: {
+        outlined: {
+          '&.MuiInputLabel-shrink': {
+            top: '0'
+          }
+        }
+      }
     }
   }
 }

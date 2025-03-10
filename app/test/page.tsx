@@ -7,7 +7,7 @@ import {
   FormControl,
   RadioGroup
 } from '@mui/material'
-import { Button, Checkbox, Radio, Switch } from '@/luna/components'
+import { Button, Checkbox, Radio, Switch, TextField } from '@/luna/components'
 
 export default function Page() {
   return (
@@ -68,6 +68,8 @@ export default function Page() {
               label='Switch'
             />
           </FormGroup>
+
+          <TextField label='Outlined' multiline minRows={4} />
         </Card>
       </main>
     </div>
