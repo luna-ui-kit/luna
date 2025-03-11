@@ -1,4 +1,4 @@
-import { Hero002, Navbar002 } from '@/luna/blocks'
+import { Hero002, IconBox002, Navbar002 } from '@/luna/blocks'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -11,6 +11,7 @@ export default function Page() {
     <>
       <Navbar002 />
       <Hero002 />
+      <IconBox002 />
     </>
   )
 }

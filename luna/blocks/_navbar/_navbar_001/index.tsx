@@ -4,7 +4,7 @@ import { AppBar, Box, IconButton, useTheme } from '@mui/material'
 import { IconMenu2, IconSearch } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { MenuLinks } from './menu'
+import { menuLinks } from './menu'
 
 export function Navbar001() {
   const theme = useTheme()
@@ -29,7 +29,7 @@ export function Navbar001() {
 
           <Box sx={{ display: 'flex', gap: '8px' }}>
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-              {MenuLinks.map((menuItem, i) => (
+              {menuLinks.map((menuItem, i) => (
                 <Button
                   component='a'
                   key={i}
