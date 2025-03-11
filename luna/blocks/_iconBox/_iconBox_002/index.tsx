@@ -1,6 +1,6 @@
 'use client'
 import { BlockWrapper } from '@/luna/components'
-import { Box, Grid2, Typography, useTheme } from '@mui/material'
+import { Box, Grid2 as Grid, Typography, useTheme } from '@mui/material'
 import { items } from './items'
 
 export function IconBox002() {
@@ -9,9 +9,9 @@ export function IconBox002() {
   return (
     <BlockWrapper>
       <Box sx={{ paddingY: { xs: '24px', md: '40px' } }}>
-        <Grid2 spacing={'24px'} container>
+        <Grid spacing={'24px'} container>
           {items.map((item, _) => (
-            <Grid2
+            <Grid
               size={{ xs: 12, sm: 6, lg: 3 }}
               key={_}
               sx={{
@@ -31,9 +31,9 @@ export function IconBox002() {
               <Typography variant='bodySmall' color='textDisabled'>
                 {item.description}
               </Typography>
-            </Grid2>
+            </Grid>
           ))}
-        </Grid2>
+        </Grid>
       </Box>
     </BlockWrapper>
   )
