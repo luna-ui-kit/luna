@@ -10,6 +10,7 @@ export function Hero001() {
     <BlockWrapper>
       <Box
         sx={{
+          mt: '64px',
           display: 'flex',
           flexDirection: { xs: 'column', md: 'row' },
           alignItems: 'center',
