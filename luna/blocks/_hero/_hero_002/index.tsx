@@ -28,7 +28,7 @@ export function Hero002() {
               alignItems: 'center'
             }}
           >
-            <Typography variant='headlineSmall'>Landing Page</Typography>
+            <Typography variant='titleMedium'>Landing Page</Typography>
 
             <Typography variant='displayLarge'>OUR LAYOUTS</Typography>
           </Box>
