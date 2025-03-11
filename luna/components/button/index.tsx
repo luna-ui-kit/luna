@@ -3,6 +3,7 @@ import { Button as MuiButton, ButtonProps } from '@mui/material'
 import { styled } from '@mui/material/styles'
 
 export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
+  width: 'fit-content',
   height: '44px',
   fontSize: '14px',
   textTransform: 'none',

@@ -1,9 +1,12 @@
-.wrapper,
-.wrapperFullWidth {
+.wrapper {
   box-sizing: border-box;
   width: 100%;
   max-width: 1760px;
   margin: auto;
+}
+
+.wrapperFullWidth {
+  width: 100%;
 }
 
 @media (min-width: 1024px) {

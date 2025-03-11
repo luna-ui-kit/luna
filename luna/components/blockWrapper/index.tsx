@@ -1,16 +1,25 @@
 'use client'
+import React from 'react'
 import style from './index.module.css'
 
 export const BlockWrapper = ({
   children,
+  sx,
   fullWidth = false
 }: Readonly<{
   children: React.ReactNode
+  sx?: { backgroundColor: string }
   fullWidth?: boolean
 }>) => {
   return (
-    <div className={fullWidth ? style.wrapperFullWidth : style.wrapper}>
-      {children}
-    </div>
+    <>
+      {fullWidth ? (
+        <div className={style.wrapperFullWidth} style={{ ...sx }}>
+          <div className={style.wrapper}>{children}</div>
+        </div>
+      ) : (
+        <div className={style.wrapper}>{children}</div>
+      )}
+    </>
   )
 }
