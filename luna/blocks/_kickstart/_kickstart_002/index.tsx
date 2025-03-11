@@ -19,7 +19,7 @@ export function Kickstart002() {
         spacing={'64px'}
         container
         sx={{
-          padding: { xs: '24px', sm: '40px', md: '80px' }
+          paddingY: { xs: '24px', sm: '40px', md: '80px' }
         }}
       >
         <Grid
