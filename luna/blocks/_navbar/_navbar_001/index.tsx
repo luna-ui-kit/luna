@@ -11,7 +11,7 @@ export function Navbar001() {
 
   return (
     <AppBar
-      position='sticky'
+      position='fixed'
       sx={{ backgroundColor: theme.palette.background.paper }}
     >
       <BlockWrapper>
