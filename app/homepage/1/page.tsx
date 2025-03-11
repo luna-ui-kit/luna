@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import {
+  CallToAction001,
   Content001,
   Hero001,
   IconBox001,
@@ -20,6 +21,7 @@ export default function Page() {
       <IconBox001 />
       <Kickstart001 />
       <Content001 />
+      <CallToAction001 />
     </>
   )
 }
