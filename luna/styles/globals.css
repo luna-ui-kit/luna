@@ -19,4 +19,5 @@ body {
 .shiki {
   padding: 24px;
   margin-bottom: 0;
+  overflow: scroll;
 }
