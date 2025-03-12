@@ -1,4 +1,5 @@
 export * from './_callToAction/_callToAction_001'
+export * from './_callToAction/_callToAction_002'
 
 export * from './_content/_content_001'
 export * from './_content/_content_002'

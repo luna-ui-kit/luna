@@ -1,55 +1,61 @@
 'use client'
 import { BlockWrapper, Button } from '@/luna/components'
 import { Box, Card, Typography, useTheme } from '@mui/material'
-import { IconPhoneCall } from '@tabler/icons-react'
 
-export function CallToAction001() {
+export function CallToAction002() {
   const theme = useTheme()
 
   return (
-    <BlockWrapper>
+    <BlockWrapper
+      fullWidth
+      sx={{ backgroundColor: theme.palette.background.paper }}
+    >
       <Box sx={{ paddingY: { xs: '24px', md: '40px' } }}>
-        <Card
-          elevation={20}
+        <Box
           sx={{
             display: 'flex',
             flexDirection: { xs: 'column', md: 'row' },
             gap: '24px',
+            alignItems: 'center',
             justifyContent: 'space-between',
-            backgroundColor: theme.palette.secondary.main,
             padding: '24px'
           }}
         >
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <Typography variant='headlineLarge' color='white'>
-              Custom Interactive Features
+            <Typography variant='titleMedium' color='textDisabled'>
+              Sample Subtitle
             </Typography>
 
-            <Typography variant='bodyMedium' color='white'>
-              Natus sit volur tatem accus antium laudan tium.
+            <Typography variant='headlineLarge'>
+              Porro est dolorem ipsum dolor sit amet consec.
             </Typography>
           </Box>
 
-          <Box
+          <Card
+            elevation={20}
             sx={{
+              backgroundColor: theme.palette.primary.main,
               display: 'flex',
+              flexDirection: 'column',
+              padding: '32px',
               flexWrap: 'wrap',
               minWidth: 'fit-content',
+              width: { md: 'auto', xs: '100%' },
               gap: '16px',
               alignItems: 'center'
             }}
           >
-            <Button
-              startIcon={<IconPhoneCall color='white' />}
-              variant='outlined'
-              sx={{ color: 'white' }}
-            >
-              0800 212 44 77
-            </Button>
+            <Typography variant='bodyLarge' color='white'>
+              Call Us Now
+            </Typography>
+
+            <Typography variant='titleLarge' color='white'>
+              0800 123 45 67
+            </Typography>
 
             <Button variant='secondary'>Learn More</Button>
-          </Box>
-        </Card>
+          </Card>
+        </Box>
       </Box>
     </BlockWrapper>
   )

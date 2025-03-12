@@ -1,4 +1,5 @@
 import {
+  CallToAction002,
   Content002,
   Hero002,
   IconBox002,
@@ -20,6 +21,7 @@ export default function Page() {
       <IconBox002 />
       <Kickstart002 />
       <Content002 />
+      <CallToAction002 />
     </>
   )
 }
