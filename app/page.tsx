@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { BlockWrapper, Button } from '@/luna/components'
 import { Box, Paper, Typography } from '@mui/material'
 import Image from 'next/image'
-import { IconBrandFigma } from '@tabler/icons-react'
+import { IconBrandFigma, IconBrandGithub } from '@tabler/icons-react'
 import Link from 'next/link'
 import cover from '@/public/cover.webp'
 
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <BlockWrapper>
-      <Box sx={{ paddingY: '24px', maxWidth: '800px', m: 'auto' }}>
+      <Box sx={{ paddingY: '24px', maxWidth: '640px', m: 'auto' }}>
         <Paper
           elevation={10}
           sx={{
@@ -32,7 +32,7 @@ export default function Page() {
               width: '100%',
               height: 'auto',
               objectFit: 'contain',
-              marginTop: '24px'
+              marginBottom: '24px'
             }}
           />
 
@@ -49,7 +49,9 @@ export default function Page() {
             the way.
           </Typography>
 
-          <Box sx={{ display: 'flex', gap: '16px', mt: '16px' }}>
+          <Box
+            sx={{ display: 'flex', gap: '16px', mt: '16px', flexWrap: 'wrap' }}
+          >
             <Link href={'/document'}>
               <Button variant='contained' size='large'>
                 Document
@@ -64,6 +66,16 @@ export default function Page() {
               startIcon={<IconBrandFigma />}
             >
               Figma
+            </Button>
+
+            <Button
+              component={'a'}
+              href='https://github.com/luna-ui-kit/luna'
+              variant='outlined'
+              size='large'
+              startIcon={<IconBrandGithub />}
+            >
+              Github
             </Button>
           </Box>
         </Paper>
