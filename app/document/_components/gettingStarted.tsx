@@ -125,6 +125,10 @@ export const GettingStarted = () => {
             <Button variant='outlined'>Figma</Button>
           </Link>
 
+          <Link target='_blank' href={'https://github.com/luna-ui-kit/luna'}>
+            <Button variant='outlined'>Github</Button>
+          </Link>
+
           <Link target='_blank' href={'https://t.me/SalehAkaJim'}>
             <Button variant='outlined'>Telegram</Button>
           </Link>
