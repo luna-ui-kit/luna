@@ -81,6 +81,12 @@ export const Sidebar = () => {
             ↳ Switch
           </Button>
         </Link>
+
+        <Link href={'#TextField'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Text Field
+          </Button>
+        </Link>
       </Box>
     </Grid>
   )
