@@ -87,6 +87,16 @@ export const Sidebar = () => {
             ↳ Text Field
           </Button>
         </Link>
+
+        <Typography variant='bodySmall' color='textDisabled'>
+          Pages
+        </Typography>
+
+        <Link href={'#TextField'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Homepage (2)
+          </Button>
+        </Link>
       </Box>
     </Grid>
   )
