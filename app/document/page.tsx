@@ -11,7 +11,7 @@ import { CheckboxSection } from './_components/checkbox'
 import { RadioGroupSection } from './_components/radioGroup'
 import { SwitchSection } from './_components/switch'
 import { TextFieldSection } from './_components/textField'
-import { AccordionSection } from './_components/accordion'
+import { HomepageSection } from './_components/homepage'
 
 export const metadata: Metadata = {
   title: 'Luna | Document',
@@ -43,7 +43,7 @@ export default function Page() {
         <RadioGroupSection />
         <SwitchSection />
         <TextFieldSection />
-        <AccordionSection />
+        <HomepageSection />
       </Grid>
     </Grid>
   )
