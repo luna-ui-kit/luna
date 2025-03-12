@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <BlockWrapper>
-      <Box sx={{ paddingY: '24px' }}>
+      <Box sx={{ paddingY: '24px', maxWidth: '800px', m: 'auto' }}>
         <Paper
           elevation={10}
           sx={{
@@ -25,6 +25,17 @@ export default function Page() {
             padding: '24px'
           }}
         >
+          <Image
+            src={cover}
+            alt=''
+            style={{
+              width: '100%',
+              height: 'auto',
+              objectFit: 'contain',
+              marginTop: '24px'
+            }}
+          />
+
           <Typography variant='displaySmall'>Welcome to Luna UI Kit</Typography>
 
           <Typography variant='bodySmall'>
@@ -55,17 +66,6 @@ export default function Page() {
               Figma
             </Button>
           </Box>
-
-          <Image
-            src={cover}
-            alt=''
-            style={{
-              width: '100%',
-              height: 'auto',
-              objectFit: 'contain',
-              marginTop: '24px'
-            }}
-          />
         </Paper>
       </Box>
     </BlockWrapper>

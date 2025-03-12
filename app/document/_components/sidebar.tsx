@@ -16,7 +16,9 @@ export const Sidebar = () => {
           padding: '24px'
         }}
       >
-        <Image src={logo} alt='' width={100} style={{ marginBottom: '24px' }} />
+        <Link href={'/'} style={{ marginBottom: '24px' }}>
+          <Image src={logo} alt='' width={110} height={32} />
+        </Link>
 
         <Link href={'#GettingStarted'}>
           <Button variant='link' sx={{ textDecoration: 'none' }}>
@@ -65,6 +67,12 @@ export const Sidebar = () => {
         <Link href={'#Checkbox'}>
           <Button variant='link' sx={{ textDecoration: 'none' }}>
             ↳ Checkbox
+          </Button>
+        </Link>
+
+        <Link href={'#RadioGroup'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Radio Group
           </Button>
         </Link>
       </Box>
