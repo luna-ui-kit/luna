@@ -7,7 +7,7 @@ import {
   Typography,
   useTheme
 } from '@mui/material'
-import logo from '@/public/Logo.webp'
+import logo from '@/public/logo.webp'
 import Image from 'next/image'
 import {
   IconAt,

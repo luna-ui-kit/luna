@@ -23,7 +23,7 @@ export function Navbar002() {
           }}
         >
           <Link href='/'>
-            <Image src='/Logo.webp' alt='' width={83} height={24} />
+            <Image src='/logo.webp' alt='' width={83} height={24} />
           </Link>
 
           <Box sx={{ display: 'flex', gap: '8px' }}>
