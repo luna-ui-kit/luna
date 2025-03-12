@@ -7,6 +7,7 @@ import { Elevation } from './_components/elevation'
 import { Icons } from './_components/icons'
 import { TypographySection } from './_components/typography'
 import { ButtonSection } from './_components/button'
+import { CheckboxSection } from './_components/checkbox'
 
 export const metadata: Metadata = {
   title: 'Luna | Document',
@@ -34,6 +35,7 @@ export default function Page() {
         <Icons />
         <TypographySection />
         <ButtonSection />
+        <CheckboxSection />
       </Grid>
     </Grid>
   )

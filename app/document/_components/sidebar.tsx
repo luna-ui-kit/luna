@@ -61,6 +61,12 @@ export const Sidebar = () => {
             ↳ Button
           </Button>
         </Link>
+
+        <Link href={'#Checkbox'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Checkbox
+          </Button>
+        </Link>
       </Box>
     </Grid>
   )

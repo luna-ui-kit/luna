@@ -48,76 +48,292 @@ export const Elevation = () => {
         <Box
           sx={{ display: 'flex', flexWrap: 'wrap', gap: '12px', mt: '24px' }}
         >
-          <Paper elevation={1} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={1}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             01
           </Paper>
-          <Paper elevation={2} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={2}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             02
           </Paper>
-          <Paper elevation={3} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={3}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             03
           </Paper>
-          <Paper elevation={4} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={4}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             04
           </Paper>
-          <Paper elevation={5} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={5}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             05
           </Paper>
-          <Paper elevation={6} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={6}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             06
           </Paper>
-          <Paper elevation={7} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={7}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             07
           </Paper>
-          <Paper elevation={8} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={8}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             08
           </Paper>
-          <Paper elevation={9} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={9}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             09
           </Paper>
-          <Paper elevation={10} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={10}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             10
           </Paper>
-          <Paper elevation={11} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={11}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             11
           </Paper>
-          <Paper elevation={12} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={12}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             12
           </Paper>
-          <Paper elevation={13} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={13}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             13
           </Paper>
-          <Paper elevation={14} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={14}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             14
           </Paper>
-          <Paper elevation={15} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={15}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             15
           </Paper>
-          <Paper elevation={16} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={16}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             16
           </Paper>
-          <Paper elevation={17} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={17}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             17
           </Paper>
-          <Paper elevation={18} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={18}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             18
           </Paper>
-          <Paper elevation={19} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={19}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             19
           </Paper>
-          <Paper elevation={20} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={20}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             20
           </Paper>
-          <Paper elevation={21} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={21}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             21
           </Paper>
-          <Paper elevation={22} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={22}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             22
           </Paper>
-          <Paper elevation={23} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={23}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             23
           </Paper>
-          <Paper elevation={24} sx={{ width: '50px', height: '50px' }}>
+          <Paper
+            elevation={24}
+            sx={{
+              width: '64px',
+              height: '64px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             24
           </Paper>
         </Box>

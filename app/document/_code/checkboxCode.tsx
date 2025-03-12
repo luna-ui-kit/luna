@@ -4,25 +4,24 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { Button } from '@/luna/components'
+import { FormControlLabel, FormGroup } from '@mui/material'
+import { Checkbox } from '@/luna/components'
 
 export default function Page() {
   return (
     <>
-      <Button variant='contained'>Contained</Button>
+      <FormGroup>
+        <FormControlLabel control={<Checkbox defaultChecked />} label='Label' />
 
-      <Button variant='outlined'>Outlined</Button>
+        <FormControlLabel required control={<Checkbox />} label='Required' />
 
-      <Button variant='link'>Link</Button>
-
-      <Button variant='secondary'>Secondary</Button>
-
-      <Button variant='text'>Text</Button>
+        <FormControlLabel disabled control={<Checkbox />} label='Disabled' />
+      </FormGroup>
     </>
   )
 }`
 
-export default function ButtonCode() {
+export default function CheckboxCode() {
   const [code, setCode] = useState<undefined | string>()
 
   useEffect(() => {
