@@ -30,14 +30,9 @@ export function Navbar001() {
           <Box sx={{ display: 'flex', gap: '8px' }}>
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               {menuLinks.map((menuItem, i) => (
-                <Button
-                  component='a'
-                  key={i}
-                  href={menuItem.link}
-                  variant='text'
-                >
-                  {menuItem.name}
-                </Button>
+                <Link href={menuItem.link} key={i}>
+                  <Button variant='text'>{menuItem.name}</Button>
+                </Link>
               ))}
             </Box>
 

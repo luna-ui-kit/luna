@@ -8,7 +8,7 @@ export const BlockWrapper = ({
   fullWidth = false
 }: Readonly<{
   children: React.ReactNode
-  sx?: { backgroundColor: string }
+  sx?: { backgroundColor?: string; border?: string; borderTop?: string }
   fullWidth?: boolean
 }>) => {
   return (

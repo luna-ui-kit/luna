@@ -34,6 +34,7 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
         textDecoration: 'underline',
         padding: '0',
         minWidth: 'auto',
+        height: 'fit-content',
         '&:hover': { textDecoration: 'underline' },
         '&:active': { textDecoration: 'underline' },
         '&:focus': { textDecoration: 'underline' }
