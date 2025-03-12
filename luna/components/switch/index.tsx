@@ -10,6 +10,7 @@ export const Switch = styled((props: SwitchProps) => (
     {...props}
   />
 ))(({ theme }) => ({
+  margin: 8,
   width: 40,
   height: 24,
   padding: 0,
