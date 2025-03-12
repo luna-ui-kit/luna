@@ -11,6 +11,20 @@ export const StyleOverrides = {
         }
       }
     },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: 0
+        }
+      }
+    },
+    MuiBox: {
+      styleOverrides: {
+        root: {
+          borderRadius: 0
+        }
+      }
+    },
     MuiInputLabel: {
       styleOverrides: {
         outlined: {
