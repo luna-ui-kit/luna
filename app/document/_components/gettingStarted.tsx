@@ -113,7 +113,9 @@ export const GettingStarted = () => {
           Reach out, let&apos;s build something awesome together!
         </Typography>
 
-        <Box sx={{ display: 'flex', gap: '16px', mt: '16px' }}>
+        <Box
+          sx={{ display: 'flex', gap: '16px', mt: '16px', flexWrap: 'wrap' }}
+        >
           <Link
             target='_blank'
             href={

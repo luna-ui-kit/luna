@@ -34,7 +34,9 @@ export const TypographySection = () => {
           development.
         </Typography>
 
-        <Box sx={{ display: 'flex', gap: '16px', mt: '16px' }}>
+        <Box
+          sx={{ display: 'flex', gap: '16px', mt: '16px', flexWrap: 'wrap' }}
+        >
           <Link
             target='_blank'
             href={'https://m3.material.io/styles/typography/type-scale-tokens'}
