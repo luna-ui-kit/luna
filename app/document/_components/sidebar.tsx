@@ -87,6 +87,16 @@ export const Sidebar = () => {
             ↳ Text Field
           </Button>
         </Link>
+
+        <Typography variant='bodySmall' color='textDisabled'>
+          Blocks
+        </Typography>
+
+        <Link href={'#Accordion'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Accordion
+          </Button>
+        </Link>
       </Box>
     </Grid>
   )
