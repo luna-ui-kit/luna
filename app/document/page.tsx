@@ -9,6 +9,7 @@ import { TypographySection } from './_components/typography'
 import { ButtonSection } from './_components/button'
 import { CheckboxSection } from './_components/checkbox'
 import { RadioGroupSection } from './_components/radioGroup'
+import { SwitchSection } from './_components/switch'
 
 export const metadata: Metadata = {
   title: 'Luna | Document',
@@ -38,6 +39,7 @@ export default function Page() {
         <ButtonSection />
         <CheckboxSection />
         <RadioGroupSection />
+        <SwitchSection />
       </Grid>
     </Grid>
   )

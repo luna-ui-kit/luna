@@ -75,6 +75,12 @@ export const Sidebar = () => {
             ↳ Radio Group
           </Button>
         </Link>
+
+        <Link href={'#Switch'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Switch
+          </Button>
+        </Link>
       </Box>
     </Grid>
   )
