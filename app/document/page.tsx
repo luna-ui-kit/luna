@@ -13,6 +13,7 @@ import { SwitchSection } from './_components/switch'
 import { TextFieldSection } from './_components/textField'
 import { HomepageSection } from './_components/homepage'
 import { ChipSection } from './_components/chip'
+import { AvatarSection } from './_components/avatar'
 
 export const metadata: Metadata = {
   title: 'Luna | Document',
@@ -39,6 +40,7 @@ export default function Page() {
         <Elevation />
         <Icons />
         <TypographySection />
+        <AvatarSection />
         <ButtonSection />
         <CheckboxSection />
         <ChipSection />

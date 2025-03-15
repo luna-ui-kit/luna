@@ -1,4 +1,5 @@
 export * from './accordion'
+export * from './avatar'
 export * from './blockWrapper'
 export * from './button'
 export * from './checkbox'

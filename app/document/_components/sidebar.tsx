@@ -58,6 +58,12 @@ export const Sidebar = () => {
           Components
         </Typography>
 
+        <Link href={'#Avatar'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Avatar
+          </Button>
+        </Link>
+
         <Link href={'#Button'}>
           <Button variant='link' sx={{ textDecoration: 'none' }}>
             ↳ Button
