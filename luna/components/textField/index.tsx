@@ -7,16 +7,10 @@ import {
 import { grey } from '@mui/material/colors'
 
 const CustomTextField = styled(TextFieldMui)<TextFieldProps>({
-  '& label': {
-    top: '-4px'
-  },
   '& label.Mui-focused': {
     color: grey[800]
   },
   '& .MuiOutlinedInput-root': {
-    '& input': {
-      padding: '12.5px 14px'
-    },
     '& fieldset': {
       borderColor: grey[400],
       borderRadius: 0
