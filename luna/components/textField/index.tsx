@@ -7,13 +7,23 @@ import {
 import { grey } from '@mui/material/colors'
 
 const CustomTextField = styled(TextFieldMui)<TextFieldProps>({
+  '& label': {
+    top: '-4px'
+  },
   '& label.Mui-focused': {
     color: grey[800]
   },
   '& .MuiOutlinedInput-root': {
+    '& input': {
+      padding: '12.5px 14px'
+    },
     '& fieldset': {
       borderColor: grey[400],
-      borderRadius: 0
+      borderRadius: 0,
+      '& legend': {
+        visibility: 'unset',
+        backgroundColor: '#fff'
+      }
     },
     '&:hover fieldset': {
       borderColor: '#B2BAC2'
@@ -25,5 +35,5 @@ const CustomTextField = styled(TextFieldMui)<TextFieldProps>({
 })
 
 export function TextField(props: TextFieldProps) {
-  return <CustomTextField variant='outlined' size='medium' {...props} />
+  return <CustomTextField variant='outlined' {...props} />
 }

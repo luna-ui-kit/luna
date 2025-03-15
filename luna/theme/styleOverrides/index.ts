@@ -25,6 +25,15 @@ export const StyleOverrides = {
         }
       }
     },
+    MuiInputLabel: {
+      styleOverrides: {
+        outlined: {
+          '&.MuiInputLabel-shrink': {
+            top: '0'
+          }
+        }
+      }
+    },
     MuiIconButton: {
       styleOverrides: {
         root: {
