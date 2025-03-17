@@ -21,7 +21,8 @@ export function IconBox002() {
                 alignItems: 'center',
                 gap: '8px',
                 backgroundColor: theme.palette.background.paper,
-                padding: '24px'
+                padding: '24px',
+                borderRadius: '24px'
               }}
             >
               {item.icon}

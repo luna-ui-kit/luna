@@ -42,7 +42,8 @@ export function CallToAction002() {
               minWidth: 'fit-content',
               width: { md: 'auto', xs: '100%' },
               gap: '16px',
-              alignItems: 'center'
+              alignItems: 'center',
+              borderRadius: '24px'
             }}
           >
             <Typography variant='bodyLarge' color='white'>
