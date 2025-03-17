@@ -14,7 +14,8 @@ export function IconBox001() {
           container
           sx={{
             padding: '24px',
-            backgroundColor: theme.palette.background.paper
+            backgroundColor: theme.palette.background.paper,
+            borderRadius: '24px'
           }}
         >
           {items.map((item, _) => (

@@ -138,7 +138,7 @@ export function Footer001() {
                 sx={{ textDecoration: 'none' }}
                 startIcon={<IconPhoneCall />}
               >
-                demo@luna.com
+                0800 123 45 67
               </Button>
             </Box>
 

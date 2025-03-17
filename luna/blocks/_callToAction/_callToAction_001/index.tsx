@@ -17,7 +17,8 @@ export function CallToAction001() {
             gap: '24px',
             justifyContent: 'space-between',
             backgroundColor: theme.palette.secondary.main,
-            padding: '24px'
+            padding: '24px',
+            borderRadius: '24px'
           }}
         >
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>

@@ -4,7 +4,7 @@ import { Checkbox as MuiCheckbox, CheckboxProps } from '@mui/material'
 import { green } from '@mui/material/colors'
 
 const BpIcon = styled('span')<CheckboxProps>(({ theme }) => ({
-  borderRadius: 0,
+  borderRadius: '6px',
   width: 20,
   height: 20,
   backgroundColor: theme.palette.background.paper,
@@ -14,7 +14,7 @@ const BpIcon = styled('span')<CheckboxProps>(({ theme }) => ({
 const BpCheckedIcon = styled(BpIcon)({
   backgroundColor: green[500],
   border: `1.5px solid ${green[500]}`,
-  borderRadius: 0,
+  borderRadius: '6px',
   width: 20,
   height: 20,
 

@@ -53,7 +53,8 @@ export function Hero001() {
             width: '100%',
             maxWidth: '600px',
             height: '500px',
-            objectFit: 'cover'
+            objectFit: 'cover',
+            borderRadius: '24px'
           }}
         />
       </Box>

@@ -39,7 +39,7 @@ export const StyleOverrides = {
         root: {
           border: '1px solid',
           borderColor: grey[200],
-          borderRadius: 0
+          borderRadius: '12px'
         }
       }
     }
