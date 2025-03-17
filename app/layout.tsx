@@ -1,9 +1,9 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import { ThemeComponent } from '@/luna/theme/ThemeComponent'
-import { Poppins } from 'next/font/google'
+import { Quicksand } from 'next/font/google'
 import '@/luna/styles/globals.css'
 
-const poppins = Poppins({
+const poppins = Quicksand({
   weight: ['700', '600', '500', '400'],
   subsets: ['latin']
 })

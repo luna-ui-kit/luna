@@ -8,157 +8,127 @@ export const Typography = {
     fontFamily: "Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     displayLarge: {
       fontSize: '64px',
-      lineHeight: '86px',
       color: grey[900],
       fontWeight: 700,
       [breakpoints.down('md')]: {
-        fontSize: '56px',
-        lineHeight: '68px'
+        fontSize: '56px'
       },
       [breakpoints.down('sm')]: {
-        fontSize: '48px',
-        lineHeight: '56px'
+        fontSize: '48px'
       }
     },
     displayMedium: {
       fontSize: '56px',
-      lineHeight: '68px',
       color: grey[900],
       fontWeight: 600,
       [breakpoints.down('md')]: {
-        fontSize: '48px',
-        lineHeight: '56px'
+        fontSize: '48px'
       },
       [breakpoints.down('sm')]: {
-        fontSize: '40px',
-        lineHeight: '52px'
+        fontSize: '40px'
       }
     },
     displaySmall: {
       fontSize: '48px',
-      lineHeight: '56px',
       color: grey[900],
       fontWeight: 600,
       [breakpoints.down('md')]: {
-        fontSize: '40px',
-        lineHeight: '52px'
+        fontSize: '40px'
       },
       [breakpoints.down('sm')]: {
-        fontSize: '32px',
-        lineHeight: '40px'
+        fontSize: '32px'
       }
     },
     headlineLarge: {
       fontSize: '40px',
-      lineHeight: '52px',
       color: grey[900],
       fontWeight: 600,
       [breakpoints.down('md')]: {
-        fontSize: '32px',
-        lineHeight: '40px'
+        fontSize: '32px'
       },
       [breakpoints.down('sm')]: {
-        fontSize: '24px',
-        lineHeight: '30px'
+        fontSize: '24px'
       }
     },
     headlineMedium: {
       fontSize: '32px',
-      lineHeight: '40px',
       color: grey[900],
       fontWeight: 600,
       [breakpoints.down('md')]: {
-        fontSize: '24px',
-        lineHeight: '30px'
+        fontSize: '24px'
       },
       [breakpoints.down('sm')]: {
-        fontSize: '22px',
-        lineHeight: '26px'
+        fontSize: '22px'
       }
     },
     headlineSmall: {
       fontSize: '24px',
-      lineHeight: '30px',
       color: grey[900],
       fontWeight: 600,
       [breakpoints.down('md')]: {
-        fontSize: '22px',
-        lineHeight: '26px'
+        fontSize: '22px'
       },
       [breakpoints.down('sm')]: {
-        fontSize: '22px',
-        lineHeight: '26px'
+        fontSize: '22px'
       }
     },
     titleLarge: {
       fontSize: '18px',
-      lineHeight: '24px',
       color: grey[900],
       fontWeight: 600
     },
     titleMedium: {
       fontSize: '18px',
-      lineHeight: '24px',
       color: grey[900],
       fontWeight: 600
     },
     titleSmall: {
       fontSize: '16px',
-      lineHeight: '22px',
       color: grey[900],
       fontWeight: 600
     },
     bodyLarge: {
       fontSize: '18px',
-      lineHeight: '24px',
       color: grey[800],
       fontWeight: 400
     },
     bodyMedium: {
       fontSize: '16px',
-      lineHeight: '22px',
       color: grey[800],
       fontWeight: 400
     },
     bodySmall: {
       fontSize: '14px',
-      lineHeight: '20px',
       color: grey[800],
       fontWeight: 400
     },
     bodyExtraSmall: {
       fontSize: '12px',
-      lineHeight: '18px',
       color: grey[800],
       fontWeight: 400
     },
     labelExtraLarge: {
       fontSize: '18px',
-      lineHeight: '24px',
       color: grey[800],
       fontWeight: 500
     },
     labelLarge: {
       fontSize: '16px',
-      lineHeight: '22px',
       color: grey[800],
       fontWeight: 500
     },
     labelMedium: {
       fontSize: '14px',
-      lineHeight: '20px',
       color: grey[800],
       fontWeight: 500
     },
     labelSmall: {
       fontSize: '12px',
-      lineHeight: '18px',
       color: grey[800],
       fontWeight: 500
     },
     labelExtraSmall: {
       fontSize: '10px',
-      lineHeight: '16px',
       color: grey[800],
       fontWeight: 500
     }
