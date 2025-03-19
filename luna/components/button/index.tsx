@@ -59,7 +59,7 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
     },
     {
       props: { size: 'large' },
-      style: { height: '48px', fontSize: '12px' }
+      style: { height: '48px', fontSize: '16px' }
     }
   ]
 }))
