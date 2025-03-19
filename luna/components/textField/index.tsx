@@ -19,7 +19,7 @@ const CustomTextField = styled(TextFieldMui)<TextFieldProps>({
     },
     '& fieldset': {
       borderColor: grey[400],
-      borderRadius: '16px',
+      borderRadius: '12px',
       '& legend': {
         visibility: 'unset',
         backgroundColor: '#fff'

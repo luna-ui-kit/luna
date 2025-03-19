@@ -16,6 +16,7 @@ export const HomepageSection = () => {
         flexDirection: 'column',
         gap: '24px',
         padding: '24px',
+        borderRadius: '24px',
         border: `1px solid ${theme.palette.grey[300]}`,
         background: theme.palette.background.paper
       }}
@@ -40,6 +41,7 @@ export const HomepageSection = () => {
                 border: `1px solid ${theme.palette.grey[300]}`,
                 display: 'flex',
                 flexDirection: 'column',
+                borderRadius: '12px',
                 gap: '12px',
                 padding: '16px',
                 textAlign: 'center',
@@ -74,6 +76,7 @@ export const HomepageSection = () => {
                 border: `1px solid ${theme.palette.grey[300]}`,
                 display: 'flex',
                 flexDirection: 'column',
+                borderRadius: '12px',
                 gap: '12px',
                 padding: '16px',
                 textAlign: 'center',

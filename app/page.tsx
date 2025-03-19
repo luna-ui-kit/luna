@@ -15,14 +15,21 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <BlockWrapper>
-      <Box sx={{ paddingY: '24px', maxWidth: '640px', m: 'auto' }}>
+      <Box
+        sx={{
+          paddingY: '24px',
+          maxWidth: '640px',
+          m: 'auto'
+        }}
+      >
         <Paper
           elevation={10}
           sx={{
             display: 'flex',
             flexDirection: 'column',
             gap: '12px',
-            padding: '24px'
+            padding: '24px',
+            borderRadius: '24px'
           }}
         >
           <Image
@@ -32,7 +39,8 @@ export default function Page() {
               width: '100%',
               height: 'auto',
               objectFit: 'contain',
-              marginBottom: '24px'
+              marginBottom: '24px',
+              borderRadius: '12px'
             }}
           />
 

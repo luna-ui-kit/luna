@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles'
 import { Chip as MuiCheckbox, ChipProps } from '@mui/material'
 
 export const Chip = styled(MuiCheckbox)<ChipProps>(({ theme }) => ({
-  height: 40,
+  height: 32,
   width: 'max-content',
   borderRadius: 20,
   fontSize: '14px',
