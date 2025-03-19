@@ -15,6 +15,7 @@ export const Icons = () => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
+        borderRadius: '24px',
         gap: '24px',
         padding: '24px',
         border: `1px solid ${theme.palette.grey[300]}`,

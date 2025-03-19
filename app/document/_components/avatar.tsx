@@ -11,6 +11,7 @@ export const AvatarSection = () => {
     <Box
       id='Avatar'
       sx={{
+        borderRadius: '24px',
         display: 'flex',
         flexDirection: 'column',
         gap: '24px',

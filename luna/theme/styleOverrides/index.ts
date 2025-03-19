@@ -4,27 +4,6 @@ import { Shadows } from '../shadows'
 export const StyleOverrides = {
   ...Shadows,
   components: {
-    MuiCard: {
-      styleOverrides: {
-        root: {
-          borderRadius: 0
-        }
-      }
-    },
-    MuiPaper: {
-      styleOverrides: {
-        root: {
-          borderRadius: 0
-        }
-      }
-    },
-    MuiBox: {
-      styleOverrides: {
-        root: {
-          borderRadius: 0
-        }
-      }
-    },
     MuiInputLabel: {
       styleOverrides: {
         outlined: {
