@@ -70,6 +70,12 @@ export const Sidebar = () => {
           </Button>
         </Link>
 
+        <Link href={'#Breadcrumb'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Breadcrumb
+          </Button>
+        </Link>
+
         <Link href={'#Button'}>
           <Button variant='link' sx={{ textDecoration: 'none' }}>
             ↳ Button
