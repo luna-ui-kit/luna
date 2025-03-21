@@ -1,6 +1,7 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
 import { FirstDialog } from './firstDialog'
+import FirstDialogCode from './firstDialogCode'
 
 export const DialogSection = () => {
   const theme = useTheme()
@@ -29,6 +30,8 @@ export const DialogSection = () => {
         <Box sx={{ display: 'flex', gap: '16px', mt: '16px' }}>
           <FirstDialog />
         </Box>
+
+        <FirstDialogCode />
       </Box>
     </Box>
   )
