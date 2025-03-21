@@ -1,4 +1,4 @@
-import { ButtonSection } from '../_pages'
+import { ButtonSection } from './_components/buttonSection'
 
 export default function Page() {
   return <ButtonSection />

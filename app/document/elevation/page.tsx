@@ -1,5 +1,5 @@
-import { Elevation } from '../_pages'
+import { ElevationSection } from './components/elevationSection'
 
 export default function Page() {
-  return <Elevation />
+  return <ElevationSection />
 }

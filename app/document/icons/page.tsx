@@ -1,5 +1,5 @@
-import { Icons } from '../_pages'
+import { IconsSection } from './_components/iconsSection'
 
 export default function Page() {
-  return <Icons />
+  return <IconsSection />
 }

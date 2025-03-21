@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Grid2 as Grid } from '@mui/material'
-import { Drawer, Navbar, Sidebar } from './_components'
+import { Drawer, Navbar, Sidebar } from './(document)/_components'
 
 export const metadata: Metadata = {
   title: 'Luna | Document',
