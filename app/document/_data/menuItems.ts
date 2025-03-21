@@ -14,6 +14,7 @@ export const menuItems = {
     { link: '/document/checkbox', lable: '↳ Checkbox' },
     { link: '/document/chip', lable: '↳ Chip' },
     { link: '/document/divider', lable: '↳ Divider' },
+    { link: '/document/fab', lable: '↳ FAB' },
     { link: '/document/radioGroup', lable: '↳ Radio Group' },
     { link: '/document/switch', lable: '↳ Switch' },
     { link: '/document/textField', lable: '↳ Text Field' }
