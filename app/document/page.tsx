@@ -16,6 +16,7 @@ import { ChipSection } from './_components/chip'
 import { AvatarSection } from './_components/avatar'
 import { AlertSection } from './_components/alert'
 import { BreadcrumbSection } from './_components/breadcrumb'
+import { DividerSection } from './_components/divider'
 
 export const metadata: Metadata = {
   title: 'Luna | Document',
@@ -48,6 +49,7 @@ export default function Page() {
         <ButtonSection />
         <CheckboxSection />
         <ChipSection />
+        <DividerSection />
         <RadioGroupSection />
         <SwitchSection />
         <TextFieldSection />

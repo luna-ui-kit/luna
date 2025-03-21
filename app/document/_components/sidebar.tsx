@@ -94,6 +94,12 @@ export const Sidebar = () => {
           </Button>
         </Link>
 
+        <Link href={'#Divider'}>
+          <Button variant='link' sx={{ textDecoration: 'none' }}>
+            ↳ Divider
+          </Button>
+        </Link>
+
         <Link href={'#RadioGroup'}>
           <Button variant='link' sx={{ textDecoration: 'none' }}>
             ↳ Radio Group
