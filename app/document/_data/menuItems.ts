@@ -13,6 +13,7 @@ export const menuItems = {
     { link: '/document/button', lable: '↳ Button' },
     { link: '/document/checkbox', lable: '↳ Checkbox' },
     { link: '/document/chip', lable: '↳ Chip' },
+    { link: '/document/dialog', lable: '↳ Dialog' },
     { link: '/document/divider', lable: '↳ Divider' },
     { link: '/document/fab', lable: '↳ FAB' },
     { link: '/document/radioGroup', lable: '↳ Radio Group' },
