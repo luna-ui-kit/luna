@@ -3,7 +3,7 @@ import { Button } from '@/luna/components'
 import { Box, Paper, Typography, useTheme } from '@mui/material'
 import Link from 'next/link'
 
-export const Elevation = () => {
+export const ElevationSection = () => {
   const theme = useTheme()
 
   return (

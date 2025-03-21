@@ -3,7 +3,7 @@ import { Button } from '@/luna/components'
 import { Box, Typography, useTheme } from '@mui/material'
 import Link from 'next/link'
 
-export const Colors = () => {
+export const ColorsSection = () => {
   const theme = useTheme()
 
   return (

@@ -8,7 +8,7 @@ import {
   useTheme
 } from '@mui/material'
 import { Radio } from '@/luna/components'
-import RadioGroupCode from '../_code/radioCode'
+import RadioGroupCode from './radioCode'
 
 export const RadioGroupSection = () => {
   const theme = useTheme()

@@ -2,7 +2,7 @@
 import { Box, Typography, useTheme } from '@mui/material'
 import { Breadcrumbs } from '@/luna/components'
 import { IconFileDescription, IconFolder, IconHome } from '@tabler/icons-react'
-import BreadcrumbCode from '../_code/breadcrumbCode'
+import BreadcrumbCode from './breadcrumbCode'
 
 const breadcrumbLinks1 = {
   links: [

@@ -7,7 +7,7 @@ import {
   useTheme
 } from '@mui/material'
 import { Switch } from '@/luna/components'
-import SwitchCode from '../_code/switchCode'
+import SwitchCode from './switchCode'
 
 export const SwitchSection = () => {
   const theme = useTheme()

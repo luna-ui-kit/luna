@@ -1,6 +1,6 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
-import AvatarCode from '../_code/avatarCode'
+import AvatarCode from './avatarCode'
 import { Avatar } from '@/luna/components'
 import { IconUser } from '@tabler/icons-react'
 

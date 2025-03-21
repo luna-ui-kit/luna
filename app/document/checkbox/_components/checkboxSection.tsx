@@ -6,7 +6,7 @@ import {
   Typography,
   useTheme
 } from '@mui/material'
-import CheckboxCode from '../_code/checkboxCode'
+import CheckboxCode from './checkboxCode'
 import { Checkbox } from '@/luna/components'
 
 export const CheckboxSection = () => {

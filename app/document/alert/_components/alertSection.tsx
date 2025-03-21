@@ -1,6 +1,5 @@
 'use client'
 import { Box, IconButton, Typography, useTheme } from '@mui/material'
-import AlertCode from '../_code/alertCode'
 import { Alert, Button } from '@/luna/components'
 import {
   IconCircleCheck,
@@ -8,6 +7,7 @@ import {
   IconInfoSquareRounded,
   IconX
 } from '@tabler/icons-react'
+import AlertCode from './alertCode'
 
 export const AlertSection = () => {
   const theme = useTheme()

@@ -2,7 +2,7 @@
 import { Box, Typography, useTheme } from '@mui/material'
 import { Fab } from '@/luna/components'
 import { IconPlus } from '@tabler/icons-react'
-import FABCode from '../_code/fabCode'
+import FABCode from './fabCode'
 
 export const FABSection = () => {
   const theme = useTheme()

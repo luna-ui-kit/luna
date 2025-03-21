@@ -1,5 +1,5 @@
-import { Colors } from '../_pages'
+import { ColorsSection } from './_components/colorsSection'
 
 export default function Page() {
-  return <Colors />
+  return <ColorsSection />
 }

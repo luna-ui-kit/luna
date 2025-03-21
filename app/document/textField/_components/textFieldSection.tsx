@@ -1,14 +1,14 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
-import ButtonCode from '../_code/buttonCode'
-import { Button } from '@/luna/components'
+import { TextField } from '@/luna/components'
+import TextFieldCode from './textFieldCode'
 
-export const ButtonSection = () => {
+export const TextFieldSection = () => {
   const theme = useTheme()
 
   return (
     <Box
-      id='Button'
+      id='TextField'
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -26,24 +26,31 @@ export const ButtonSection = () => {
           gap: '8px'
         }}
       >
-        <Typography variant='titleSmall'>Button</Typography>
+        <Typography variant='titleSmall'>Text Field</Typography>
 
         <Box
           sx={{
             display: 'flex',
+            flexDirection: 'column',
             gap: '16px',
-            flexWrap: 'wrap',
-            alignItems: 'center'
+            mt: '16px'
           }}
         >
-          <Button variant='contained'>Contained</Button>
-          <Button variant='outlined'>Outlined</Button>
-          <Button variant='link'>Link</Button>
-          <Button variant='secondary'>Secondary</Button>
-          <Button variant='text'>Text</Button>
+          <TextField
+            variant='outlined'
+            label='Outlined'
+            helperText='Helper text'
+          />
+
+          <TextField
+            variant='outlined'
+            label='Textarea'
+            multiline
+            minRows={4}
+          />
         </Box>
 
-        <ButtonCode />
+        <TextFieldCode />
       </Box>
     </Box>
   )

@@ -1,7 +1,7 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
 import { Divider } from '@/luna/components'
-import DividerCode from '../_code/dividerCode'
+import DividerCode from './dividerCode'
 
 export const DividerSection = () => {
   const theme = useTheme()

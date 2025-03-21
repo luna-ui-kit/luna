@@ -1,5 +1,5 @@
-import { GettingStarted } from './_pages/gettingStarted'
+import { GettingStartedSection } from './(document)/_components'
 
 export default function Page() {
-  return <GettingStarted />
+  return <GettingStartedSection />
 }

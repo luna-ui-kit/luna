@@ -4,9 +4,9 @@ import { Box, Typography, useTheme } from '@mui/material'
 import Link from 'next/link'
 import tablerLogo from '@/public/tabler.png'
 import Image from 'next/image'
-import IconCode from '../_code/iconCode'
+import IconCode from './iconCode'
 
-export const Icons = () => {
+export const IconsSection = () => {
   const theme = useTheme()
 
   return (

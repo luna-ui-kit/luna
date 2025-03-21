@@ -51,7 +51,7 @@ export const TypographySection = () => {
               'https://mui.com/material-ui/react-typography/?srsltid=AfmBOorD-ewkNxfHb5AA9YeCsp-Y-qpV7UtVm6WKUDrP4H0SwM_TwuJy'
             }
           >
-            <Button variant='outlined'>Mui Typography (Not Recommended)</Button>
+            <Button variant='outlined'>Mui Typography</Button>
           </Link>
         </Box>
       </Box>

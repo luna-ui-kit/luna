@@ -1,7 +1,7 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
 import { Chip } from '@/luna/components'
-import ChipCode from '../_code/chipCode'
+import ChipCode from './chipCode'
 
 export const ChipSection = () => {
   const theme = useTheme()
