@@ -10,6 +10,7 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
   borderRadius: '12px',
   boxShadow: 'none',
   fontWeight: 500,
+  padding: '6px 16px',
   '&:hover': { boxShadow: 'none' },
   '&:active': { boxShadow: 'none' },
 
@@ -52,6 +53,7 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
     {
       props: { size: 'small' },
       style: {
+        padding: '4px 12px',
         borderRadius: '8px',
         height: '32px',
         fontSize: '12px'
@@ -59,6 +61,7 @@ export const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
     },
     {
       props: { size: 'large' },
+      padding: '6px 24px',
       style: { height: '48px', fontSize: '16px' }
     }
   ]
