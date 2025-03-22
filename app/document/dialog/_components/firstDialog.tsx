@@ -11,7 +11,7 @@ export const FirstDialog = () => {
   return (
     <>
       <Button variant='outlined' onClick={handleClickOpen}>
-        Open Dialog
+        Open First Dialog
       </Button>
 
       <Dialog open={open} onClose={handleClose}>
