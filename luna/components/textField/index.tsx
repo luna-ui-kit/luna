@@ -26,7 +26,7 @@ const CustomTextField = styled(TextFieldMui)<TextFieldProps>({
       }
     },
     '&:hover fieldset': {
-      borderColor: '#B2BAC2'
+      borderColor: grey[600]
     },
     '&.Mui-focused fieldset': {
       borderColor: grey[900]
