@@ -10,6 +10,6 @@ export const Dialog = styled(MuiDialog)<DialogProps>(({ theme }) => ({
     borderRadius: '24px',
     margin: '24px',
     maxWidth: '440px',
-    width: '100%'
+    width: 'max-content'
   }
 }))

@@ -2,6 +2,10 @@
 import { Box, Typography, useTheme } from '@mui/material'
 import { FirstDialog } from './firstDialog'
 import FirstDialogCode from './firstDialogCode'
+import { SecondDialog } from './secondDialog'
+import SecondDialogCode from './secondDialogCode'
+import { ThirdDialog } from './thirdDialog'
+import ThirdDialogCode from './thirdDialogCode'
 
 export const DialogSection = () => {
   const theme = useTheme()
@@ -27,11 +31,17 @@ export const DialogSection = () => {
       >
         <Typography variant='titleSmall'>Dialog</Typography>
 
-        <Box sx={{ display: 'flex', gap: '16px', mt: '16px' }}>
+        <Box
+          sx={{ display: 'flex', gap: '16px', mt: '16px', flexWrap: 'wrap' }}
+        >
           <FirstDialog />
+          <SecondDialog />
+          <ThirdDialog />
         </Box>
 
         <FirstDialogCode />
+        <SecondDialogCode />
+        <ThirdDialogCode />
       </Box>
     </Box>
   )
