@@ -20,6 +20,7 @@ export const menuItems = {
     { link: '/document/radioGroup', lable: '↳ Radio Group' },
     { link: '/document/rating', lable: '↳ Rating' },
     { link: '/document/select', lable: '↳ Select' },
+    { link: '/document/snackbar', lable: '↳ Snackbar' },
     { link: '/document/switch', lable: '↳ Switch' },
     { link: '/document/textField', lable: '↳ Text Field' }
   ],
