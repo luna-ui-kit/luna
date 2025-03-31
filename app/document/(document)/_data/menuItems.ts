@@ -18,6 +18,7 @@ export const menuItems = {
     { link: '/document/fab', lable: '↳ FAB' },
     { link: '/document/progress', lable: '↳ Progress' },
     { link: '/document/radioGroup', lable: '↳ Radio Group' },
+    { link: '/document/rating', lable: '↳ Rating' },
     { link: '/document/select', lable: '↳ Select' },
     { link: '/document/switch', lable: '↳ Switch' },
     { link: '/document/textField', lable: '↳ Text Field' }
