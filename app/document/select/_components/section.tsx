@@ -9,7 +9,7 @@ import {
 } from '@mui/material'
 import { InputLabel, Select } from '@/luna/components'
 import { useState } from 'react'
-import SelectCode from './selectCode'
+import SelectCode from './code'
 
 export const SelectSection = () => {
   const theme = useTheme()
@@ -48,7 +48,8 @@ export const SelectSection = () => {
             display: 'flex',
             flexDirection: 'column',
             gap: '16px',
-            alignItems: 'center'
+            alignItems: 'center',
+            mt: '12px'
           }}
         >
           <FormControl fullWidth>

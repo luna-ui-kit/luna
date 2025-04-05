@@ -7,7 +7,7 @@ import {
   IconInfoSquareRounded,
   IconX
 } from '@tabler/icons-react'
-import AlertCode from './alertCode'
+import AlertCode from './code'
 
 export const AlertSection = () => {
   const theme = useTheme()

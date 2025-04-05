@@ -1,7 +1,7 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
 import { Chip } from '@/luna/components'
-import ChipCode from './chipCode'
+import ChipCode from './code'
 
 export const ChipSection = () => {
   const theme = useTheme()
@@ -33,7 +33,8 @@ export const ChipSection = () => {
             display: 'flex',
             gap: '8px',
             flexWrap: 'wrap',
-            alignItems: 'center'
+            alignItems: 'center',
+            mt: '12px'
           }}
         >
           <Chip label='Filled' variant='filled' />

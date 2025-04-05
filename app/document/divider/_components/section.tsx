@@ -1,7 +1,7 @@
 'use client'
 import { Box, Typography, useTheme } from '@mui/material'
 import { Divider } from '@/luna/components'
-import DividerCode from './dividerCode'
+import DividerCode from './code'
 
 export const DividerSection = () => {
   const theme = useTheme()
@@ -32,7 +32,8 @@ export const DividerSection = () => {
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            gap: '16px'
+            gap: '16px',
+            mt: '12px'
           }}
         >
           <Divider />

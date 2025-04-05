@@ -30,7 +30,7 @@ export const SnackbarSection = () => {
         <Typography variant='titleSmall'>Snackbar</Typography>
 
         <Box
-          sx={{ display: 'flex', gap: '16px', mt: '16px', flexWrap: 'wrap' }}
+          sx={{ display: 'flex', gap: '16px', mt: '12px', flexWrap: 'wrap' }}
         >
           <FirstSnackbar />
           <SecondSnackbar />

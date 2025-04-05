@@ -6,15 +6,15 @@ import {
   Typography,
   useTheme
 } from '@mui/material'
-import { Switch } from '@/luna/components'
-import SwitchCode from './switchCode'
+import CheckboxCode from './code'
+import { Checkbox } from '@/luna/components'
 
-export const SwitchSection = () => {
+export const CheckboxSection = () => {
   const theme = useTheme()
 
   return (
     <Box
-      id='Switch'
+      id='Checkbox'
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -32,7 +32,7 @@ export const SwitchSection = () => {
           gap: '8px'
         }}
       >
-        <Typography variant='titleSmall'>Switch</Typography>
+        <Typography variant='titleSmall'>Checkbox</Typography>
 
         <Box
           sx={{
@@ -43,15 +43,23 @@ export const SwitchSection = () => {
         >
           <FormGroup>
             <FormControlLabel
-              control={<Switch defaultChecked />}
+              control={<Checkbox defaultChecked />}
               label='Label'
             />
-            <FormControlLabel required control={<Switch />} label='Required' />
-            <FormControlLabel disabled control={<Switch />} label='Disabled' />
+            <FormControlLabel
+              required
+              control={<Checkbox />}
+              label='Required'
+            />
+            <FormControlLabel
+              disabled
+              control={<Checkbox />}
+              label='Disabled'
+            />
           </FormGroup>
         </Box>
 
-        <SwitchCode />
+        <CheckboxCode />
       </Box>
     </Box>
   )
