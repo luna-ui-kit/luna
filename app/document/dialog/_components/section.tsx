@@ -32,7 +32,7 @@ export const DialogSection = () => {
         <Typography variant='titleSmall'>Dialog</Typography>
 
         <Box
-          sx={{ display: 'flex', gap: '16px', mt: '16px', flexWrap: 'wrap' }}
+          sx={{ display: 'flex', gap: '16px', mt: '12px', flexWrap: 'wrap' }}
         >
           <FirstDialog />
           <SecondDialog />

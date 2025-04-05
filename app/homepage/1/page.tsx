@@ -11,7 +11,10 @@ import {
 
 export const metadata: Metadata = {
   title: 'Luna | Homepage 001',
-  description: '...'
+  description: 'Homepage 001',
+  alternates: {
+    canonical: 'https://luna-ui-kit.com/homepage/1'
+  }
 }
 
 export default function Page() {

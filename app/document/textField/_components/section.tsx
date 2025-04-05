@@ -1,19 +1,14 @@
 'use client'
-import {
-  Box,
-  CircularProgress,
-  LinearProgress,
-  Typography,
-  useTheme
-} from '@mui/material'
-import ProgressCode from './progressCode'
+import { Box, Typography, useTheme } from '@mui/material'
+import { TextField } from '@/luna/components'
+import TextFieldCode from './code'
 
-export const ProgressSection = () => {
+export const TextFieldSection = () => {
   const theme = useTheme()
 
   return (
     <Box
-      id='RadioGroup'
+      id='TextField'
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -31,26 +26,31 @@ export const ProgressSection = () => {
           gap: '8px'
         }}
       >
-        <Typography variant='titleSmall'>Progress</Typography>
+        <Typography variant='titleSmall'>Text Field</Typography>
 
         <Box
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            mt: '16px',
-            gap: '16px'
+            gap: '16px',
+            mt: '12px'
           }}
         >
-          <CircularProgress size={32} variant='determinate' value={75} />
+          <TextField
+            variant='outlined'
+            label='Outlined'
+            helperText='Helper text'
+          />
 
-          <LinearProgress
-            variant='determinate'
-            value={75}
-            sx={{ borderRadius: '4px' }}
+          <TextField
+            variant='outlined'
+            label='Textarea'
+            multiline
+            minRows={4}
           />
         </Box>
 
-        <ProgressCode />
+        <TextFieldCode />
       </Box>
     </Box>
   )
