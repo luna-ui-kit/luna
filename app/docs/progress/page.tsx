@@ -4,7 +4,7 @@ import { ProgressSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Progress',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/progress'
+    canonical: 'https://luna-ui-kit.com/docs/progress'
   }
 }
 

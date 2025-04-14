@@ -4,7 +4,7 @@ import { HomepageSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Homepage',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/homepage'
+    canonical: 'https://luna-ui-kit.com/docs/homepage'
   }
 }
 

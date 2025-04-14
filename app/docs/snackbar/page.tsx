@@ -4,7 +4,7 @@ import { SnackbarSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Snackbar',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/snackbar'
+    canonical: 'https://luna-ui-kit.com/docs/snackbar'
   }
 }
 

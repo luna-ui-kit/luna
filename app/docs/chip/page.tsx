@@ -4,7 +4,7 @@ import { ChipSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Chip',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/chip'
+    canonical: 'https://luna-ui-kit.com/docs/chip'
   }
 }
 

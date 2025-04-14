@@ -4,7 +4,7 @@ import { BreadcrumbSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Breadcrumb',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/breadcrumb'
+    canonical: 'https://luna-ui-kit.com/docs/breadcrumb'
   }
 }
 

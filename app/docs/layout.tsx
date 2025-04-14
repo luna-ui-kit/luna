@@ -19,16 +19,14 @@ export default function DocumentLayout({
       <Drawer />
 
       <BlockWrapper>
-        <Grid container spacing={'24px'} sx={{ pt: '86px' }}>
+        <Grid container spacing={'24px'} pt='86px'>
           <Sidebar />
 
           <Grid
             size={{ xs: 12, sm: 12, md: 9 }}
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '24px'
-            }}
+            display='flex'
+            flexDirection='column'
+            gap='24px'
           >
             {children}
           </Grid>

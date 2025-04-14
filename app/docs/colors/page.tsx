@@ -4,7 +4,7 @@ import { ColorsSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Colors',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/colors'
+    canonical: 'https://luna-ui-kit.com/docs/colors'
   }
 }
 

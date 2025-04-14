@@ -4,7 +4,7 @@ import { SelectSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Select',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/select'
+    canonical: 'https://luna-ui-kit.com/docs/select'
   }
 }
 

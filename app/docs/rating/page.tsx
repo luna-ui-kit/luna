@@ -4,7 +4,7 @@ import { RatingSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Rating',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/rating'
+    canonical: 'https://luna-ui-kit.com/docs/rating'
   }
 }
 

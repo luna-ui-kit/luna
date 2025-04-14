@@ -4,7 +4,7 @@ import { TypographySection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Typography',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/typography'
+    canonical: 'https://luna-ui-kit.com/docs/typography'
   }
 }
 

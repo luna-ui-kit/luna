@@ -4,7 +4,7 @@ import { AppBar, Box, IconButton, Typography, useTheme } from '@mui/material'
 import { IconMenu2 } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useDrawerStore } from '../_drawer/store'
+import { useDrawerStore } from '../_drawer/_store'
 
 export function Navbar() {
   const { handleDrawerToggle } = useDrawerStore(state => state)

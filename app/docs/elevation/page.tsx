@@ -4,7 +4,7 @@ import { ElevationSection } from './_components/section'
 export const metadata: Metadata = {
   title: 'Luna | Elevation',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document/elevation'
+    canonical: 'https://luna-ui-kit.com/docs/elevation'
   }
 }
 
