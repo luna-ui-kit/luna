@@ -3,7 +3,7 @@ import { ThemeComponent } from '@/luna/theme/ThemeComponent'
 import { Quicksand } from 'next/font/google'
 import '@/luna/styles/globals.css'
 
-const poppins = Quicksand({
+const quicksand = Quicksand({
   weight: ['700', '600', '500', '400'],
   subsets: ['latin']
 })
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en' className={poppins.className}>
+    <html lang='en' className={quicksand.className}>
       <head>
         <meta property='og:title' content='Luna UI Kit' />
 

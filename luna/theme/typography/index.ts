@@ -5,7 +5,7 @@ const breakpoints = unstable_createBreakpoints({})
 
 export const Typography = {
   typography: {
-    fontFamily: "Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    fontFamily: "Quicksand, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     displayLarge: {
       fontSize: '64px',
       color: grey[900],
