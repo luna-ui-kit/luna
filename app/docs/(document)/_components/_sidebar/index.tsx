@@ -27,7 +27,7 @@ export const Sidebar = () => {
   return (
     <Grid
       size={{ xs: 12, sm: 12, md: 3 }}
-      sx={{ padding: '24px', display: { xs: 'none', sm: 'none', md: 'flex' } }}
+      sx={{ display: { xs: 'none', sm: 'none', md: 'flex' }, py: '8px' }}
     >
       <Box
         sx={{

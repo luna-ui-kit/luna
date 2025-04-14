@@ -2,10 +2,10 @@ import { GettingStartedSection } from './(document)/_components'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Luna | Document',
+  title: 'Luna UI Kit | Docs',
   description: '🌔 Getting started',
   alternates: {
-    canonical: 'https://luna-ui-kit.com/document'
+    canonical: 'https://luna-ui-kit.com/docs'
   }
 }
 

@@ -40,7 +40,7 @@ export function Navbar() {
             </Link>
           </Box>
 
-          <Typography variant='bodySmall'>v0.5</Typography>
+          <Typography variant='bodySmall'>v2</Typography>
         </Box>
       </BlockWrapper>
     </AppBar>
