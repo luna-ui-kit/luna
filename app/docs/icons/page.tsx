@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { IconsSection } from './_components/section'
+import { IconsSection } from './_components/_section'
 
 export const metadata: Metadata = {
   title: 'Luna | Icons',

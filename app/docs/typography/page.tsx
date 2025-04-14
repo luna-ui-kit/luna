@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { TypographySection } from './_components/section'
+import { TypographySection } from './_components/_section'
 
 export const metadata: Metadata = {
   title: 'Luna | Typography',
