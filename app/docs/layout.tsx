@@ -19,7 +19,7 @@ export default function DocumentLayout({
       <Drawer />
 
       <BlockWrapper>
-        <Grid container spacing={'24px'} pt='86px'>
+        <Grid container spacing={'24px'} pt='86px' pb='32px'>
           <Sidebar />
 
           <Grid

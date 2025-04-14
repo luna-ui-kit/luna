@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { ElevationSection } from './_components/section'
+import { ElevationSection } from './_components/_section'
 
 export const metadata: Metadata = {
   title: 'Luna | Elevation',
