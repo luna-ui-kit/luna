@@ -1,6 +1,6 @@
 'use client'
-import { Button } from '@/luna/components'
-import { Avatar, Box, Typography, useTheme } from '@mui/material'
+import { Avatar, Button } from '@/luna/components'
+import { Box, Typography, useTheme } from '@mui/material'
 import { IconBrandFigma, IconBrandGithub } from '@tabler/icons-react'
 import Link from 'next/link'
 
@@ -87,7 +87,7 @@ export const GettingStartedSection = () => {
           <Typography variant='titleMedium'>🔄 Ongoing Updates</Typography>
 
           <Typography variant='bodyMedium'>
-            We’re adding new components and polishing things all the time.
+            We&apos;re adding new components and polishing things all the time.
             Updates drop regularly, so keep an eye out
           </Typography>
         </Box>
@@ -133,7 +133,6 @@ export const GettingStartedSection = () => {
             <Avatar
               variant='rounded'
               sx={{
-                border: `1px solid ${theme.palette.grey[200]}`,
                 borderRadius: '8px',
                 width: 48,
                 height: 48

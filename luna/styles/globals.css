@@ -18,6 +18,13 @@ body {
 
 .shiki {
   padding: 24px;
-  margin-bottom: 0;
+  margin: 0;
+  border-radius: 12px;
   overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.shiki::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
 }

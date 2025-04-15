@@ -55,7 +55,7 @@ export default function Page() {
             Welcome to Luna UI Kit
           </Typography>
 
-          <Typography variant='bodySmall'>
+          <Typography variant='bodyMedium'>
             Luna is an open-source UI kit built on MUI (Material Design 2).
             It&apos;s made to speed things up for both designers and devs. Super
             flexible, easy to customize, and always growing with new stuff.

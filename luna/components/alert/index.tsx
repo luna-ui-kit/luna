@@ -7,8 +7,9 @@ import { lunaRed } from '@/luna/theme/colors'
 export const Alert = styled(MuiAlert)<AlertProps>(({ theme }) => ({
   position: 'relative',
   backgroundColor: theme.palette.background.paper,
+  border: `1px solid ${theme.palette.grey[200]}`,
   borderRadius: '12px',
-  boxShadow: theme.shadows[5],
+  boxShadow: 'none',
   padding: '2px 12px',
   width: '100%',
   boxSizing: 'border-box',
