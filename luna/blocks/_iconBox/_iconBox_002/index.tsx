@@ -1,6 +1,6 @@
 'use client'
 import { BlockWrapper } from '@/luna/components'
-import { Box, Grid2 as Grid, Typography, useTheme } from '@mui/material'
+import { Box, Grid, Typography, useTheme } from '@mui/material'
 import { items } from './items'
 
 export function IconBox002() {

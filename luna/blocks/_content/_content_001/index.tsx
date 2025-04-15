@@ -1,6 +1,6 @@
 'use client'
 import { BlockWrapper, Button } from '@/luna/components'
-import { Box, Grid2 as Grid, Typography } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
 
 export function Content001() {
   return (

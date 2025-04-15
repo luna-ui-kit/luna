@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Grid2 as Grid } from '@mui/material'
+import { Grid } from '@mui/material'
 import { Drawer, Navbar, Sidebar } from './(document)/_components'
 import { BlockWrapper } from '@/luna/components'
 

@@ -1,6 +1,6 @@
 'use client'
 import { Accordions, BlockWrapper } from '@/luna/components'
-import { Grid2 as Grid, Typography, useTheme } from '@mui/material'
+import { Grid, Typography, useTheme } from '@mui/material'
 import Image from 'next/image'
 import kickstartImage from '@/public/assets/image004.webp'
 import { data } from './data'

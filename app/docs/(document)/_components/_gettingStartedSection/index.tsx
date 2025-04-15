@@ -17,7 +17,7 @@ export const GettingStartedSection = () => {
         flexWrap='wrap'
         borderRadius='24px'
         padding='16px'
-        sx={{ background: theme.palette.secondary.main }}
+        sx={{ background: theme.palette.primary.main }}
       >
         <Typography color='white' variant='titleMedium'>
           ⚡ Download
