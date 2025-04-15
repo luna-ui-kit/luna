@@ -54,7 +54,7 @@ export const Overview = () => {
 
       <Box display='flex' flexDirection='column' gap='16px'>
         <Breadcrumbs data={breadcrumbLinks1} />
-        <Breadcrumbs data={breadcrumbLinks2} />{' '}
+        <Breadcrumbs data={breadcrumbLinks2} />
       </Box>
     </Box>
   )
