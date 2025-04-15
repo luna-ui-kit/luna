@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
-import { BreadcrumbSection } from './_components/section'
+import { Overview } from './_components/_overview'
+import { Customize } from './_components/_customize'
+import Code from './_components/_code'
 
 export const metadata: Metadata = {
   title: 'Luna | Breadcrumb',
@@ -9,5 +11,11 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <BreadcrumbSection />
+  return (
+    <>
+      <Overview />
+      <Code />
+      <Customize />
+    </>
+  )
 }
