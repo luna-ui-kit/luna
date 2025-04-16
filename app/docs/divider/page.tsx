@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
-import { DividerSection } from './_components/section'
+import { Overview } from './_components/_overview'
+import { Customize } from './_components/_customize'
+import Code from './_components/_code'
 
 export const metadata: Metadata = {
   title: 'Luna | Divider',
@@ -9,5 +11,11 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <DividerSection />
+  return (
+    <>
+      <Overview />
+      <Code />
+      <Customize />
+    </>
+  )
 }
