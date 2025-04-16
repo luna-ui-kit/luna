@@ -11,10 +11,22 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { IconBrandFigma } from '@tabler/icons-react'
+import { Fab } from '@/luna/components'
+import { IconPlus } from '@tabler/icons-react'
 
 export default function Page() {
-  return <IconBrandFigma />
+  return (
+    <>
+      <Fab size='small' color='primary'> <IconPlus /> </Fab>
+      <Fab size='small' color='secondary'> <IconPlus /> </Fab>
+
+      <Fab size='medium' color='primary'> <IconPlus /> </Fab>
+      <Fab size='medium' color='secondary'> <IconPlus /> </Fab>
+
+      <Fab size='large' color='primary'> <IconPlus /> </Fab>
+      <Fab size='large' color='secondary'> <IconPlus /> </Fab>
+    </>
+  )
 }`
 
 export default function Code() {

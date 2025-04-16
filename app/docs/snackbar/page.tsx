@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { SnackbarSection } from './_components/section'
 
 export const metadata: Metadata = {
-  title: 'Luna | Snackbar',
+  title: 'Luna UI Kit | Snackbar',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/snackbar'
   }

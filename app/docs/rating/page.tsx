@@ -1,13 +1,21 @@
 import { Metadata } from 'next'
-import { RatingSection } from './_components/section'
+import { Overview } from './_components/_overview'
+import { Customize } from './_components/_customize'
+import Code from './_components/_code'
 
 export const metadata: Metadata = {
-  title: 'Luna | Rating',
+  title: 'Luna UI Kit | Rating',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/rating'
   }
 }
 
 export default function Page() {
-  return <RatingSection />
+  return (
+    <>
+      <Overview />
+      <Code />
+      <Customize />
+    </>
+  )
 }

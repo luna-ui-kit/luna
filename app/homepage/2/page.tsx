@@ -10,7 +10,7 @@ import {
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Luna | Homepage 002',
+  title: 'Luna UI Kit | Homepage 002',
   description: 'Homepage 002',
   alternates: {
     canonical: 'https://luna-ui-kit.com/homepage/2'

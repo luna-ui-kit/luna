@@ -4,7 +4,7 @@ import { Drawer, Navbar, Sidebar } from './(document)/_components'
 import { BlockWrapper } from '@/luna/components'
 
 export const metadata: Metadata = {
-  title: 'Luna | Document',
+  title: 'Luna UI Kit | Document',
   description: '...'
 }
 

@@ -11,10 +11,23 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { IconBrandFigma } from '@tabler/icons-react'
+import { FormControlLabel, RadioGroup, FormControl } from '@mui/material'
+import { Radio } from '@/luna/components'
 
 export default function Page() {
-  return <IconBrandFigma />
+  return (
+    <>
+      <FormControl>
+        <RadioGroup aria-labelledby='demo-radio-buttons-group-label' defaultValue='female' name='radio-buttons-group'>
+          <FormControlLabel value='female' control={<Radio />} label='Female' />
+
+          <FormControlLabel value='male' control={<Radio />} label='Male' />
+
+          <FormControlLabel value='other' control={<Radio />} label='Other' />
+        </RadioGroup>
+      </FormControl>
+    </>
+  )
 }`
 
 export default function Code() {

@@ -11,10 +11,10 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { IconBrandFigma } from '@tabler/icons-react'
+import { Rating } from '@/luna/components'
 
 export default function Page() {
-  return <IconBrandFigma />
+  return (<Rating defaultValue={2} />)
 }`
 
 export default function Code() {

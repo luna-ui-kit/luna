@@ -1,13 +1,19 @@
 import { Metadata } from 'next'
-import { ElevationSection } from './_components/_section'
+import { Overview } from './_components/_overview'
+import { Customize } from './_components/_customize'
 
 export const metadata: Metadata = {
-  title: 'Luna | Elevation',
+  title: 'Luna UI Kit | Elevation',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/elevation'
   }
 }
 
 export default function Page() {
-  return <ElevationSection />
+  return (
+    <>
+      <Overview />
+      <Customize />
+    </>
+  )
 }

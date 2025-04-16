@@ -1,12 +1,11 @@
 'use client'
-import { Button } from '@/luna/components'
 import { Box, Typography, useTheme } from '@mui/material'
-import Link from 'next/link'
 import tablerLogo from '@/public/tabler.png'
 import Image from 'next/image'
-import IconCode from '../_code'
+import Link from 'next/link'
+import { Button } from '@/luna/components'
 
-export const IconsSection = () => {
+export const Overview = () => {
   const theme = useTheme()
 
   return (
@@ -52,8 +51,6 @@ export const IconsSection = () => {
           <Button variant='link'>tabler.io/icons</Button>
         </Link>
       </Box>
-
-      <IconCode />
     </Box>
   )
 }

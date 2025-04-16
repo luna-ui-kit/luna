@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
-import { HomepageSection } from './_components/section'
+import { Overview } from './_components/_overview'
 
 export const metadata: Metadata = {
-  title: 'Luna | Homepage',
+  title: 'Luna UI Kit | Homepage',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/homepage'
   }
 }
 
 export default function Page() {
-  return <HomepageSection />
+  return <Overview />
 }

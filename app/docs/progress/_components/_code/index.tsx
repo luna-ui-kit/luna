@@ -11,10 +11,16 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { IconBrandFigma } from '@tabler/icons-react'
+import { CircularProgress, LinearProgress } from '@mui/material'
 
 export default function Page() {
-  return <IconBrandFigma />
+  return (
+    <>
+      <CircularProgress size={32} variant='determinate' value={75} />
+    
+      <LinearProgress variant='determinate' value={75} sx={{ borderRadius: '4px' }} />
+    </>
+  )
 }`
 
 export default function Code() {

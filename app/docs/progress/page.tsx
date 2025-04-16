@@ -1,13 +1,21 @@
 import { Metadata } from 'next'
-import { ProgressSection } from './_components/section'
+import { Overview } from './_components/_overview'
+import { Customize } from './_components/_customize'
+import Code from './_components/_code'
 
 export const metadata: Metadata = {
-  title: 'Luna | Progress',
+  title: 'Luna UI Kit | Progress',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/progress'
   }
 }
 
 export default function Page() {
-  return <ProgressSection />
+  return (
+    <>
+      <Overview />
+      <Code />
+      <Customize />
+    </>
+  )
 }

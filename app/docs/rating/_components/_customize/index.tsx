@@ -2,9 +2,8 @@
 import { Button } from '@/luna/components'
 import { Box, Typography, useTheme } from '@mui/material'
 import Link from 'next/link'
-import { Levels } from '../_levels'
 
-export const ElevationSection = () => {
+export const Customize = () => {
   const theme = useTheme()
 
   return (
@@ -17,14 +16,23 @@ export const ElevationSection = () => {
       sx={{ background: theme.palette.background.paper }}
     >
       <Box display='flex' flexDirection='column' gap='4px'>
-        <Typography variant='titleMedium'>Elevation</Typography>
+        <Typography variant='titleMedium'>How To Customize</Typography>
 
         <Typography variant='bodyMedium'>
-          The elevation system is built on MUI&apos;s foundation, using soft
-          grey shadows to create depth and hierarchy. It&apos;s designed to be
-          clean and subtle, but you&apos;re free to add more layers or customize
-          it to fit your project&apos;s vibe. Go ahead, make it your own.
+          For customization, just head to the files in the paths below. If you
+          need more details, the MUI docs have you covered.
         </Typography>
+      </Box>
+
+      <Box
+        display='flex'
+        flexDirection='column'
+        gap='16px'
+        padding='16px'
+        borderRadius='12px'
+        sx={{ background: theme.palette.grey[200] }}
+      >
+        <Typography variant='bodySmall'>@/luna/components/rating</Typography>
       </Box>
 
       <Box
@@ -41,15 +49,11 @@ export const ElevationSection = () => {
 
         <Link
           target='_blank'
-          href={
-            'https://mui.com/material-ui/react-paper/?srsltid=AfmBOoqhqDX2Lg_c6Yd-_fC5yyekyyMSExa3khpvyleCyC7EYvF1-hA9'
-          }
+          href={'https://mui.com/material-ui/customization/how-to-customize/'}
         >
-          <Button variant='link'>MUI Elevation</Button>
+          <Button variant='link'>MUI Customization</Button>
         </Link>
       </Box>
-
-      <Levels />
     </Box>
   )
 }

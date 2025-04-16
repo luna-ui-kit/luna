@@ -4,7 +4,7 @@ import { Customize } from './_components/_customize'
 import { ColorPallete } from './_components/_colors'
 
 export const metadata: Metadata = {
-  title: 'Luna | Colors',
+  title: 'Luna UI Kit | Colors',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/colors'
   }
