@@ -2,6 +2,9 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import { ThemeComponent } from '@/luna/theme/ThemeComponent'
 import { Quicksand } from 'next/font/google'
 import '@/luna/styles/globals.css'
+import Clarity from '@microsoft/clarity'
+
+Clarity.init(process.env.PROJECT_ID || '')
 
 const quicksand = Quicksand({
   weight: ['700', '600', '500', '400'],

@@ -1,12 +1,6 @@
 'use client'
 import { BlockWrapper, Button } from '@/luna/components'
-import {
-  Box,
-  Grid2 as Grid,
-  IconButton,
-  Typography,
-  useTheme
-} from '@mui/material'
+import { Box, Grid, IconButton, Typography, useTheme } from '@mui/material'
 import logo from '@/public/logo.webp'
 import Image from 'next/image'
 import {

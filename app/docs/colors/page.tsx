@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
-import { ColorsSection } from './_components/_section'
+import { Overview } from './_components/_overview'
+import { Customize } from './_components/_customize'
+import { ColorPallete } from './_components/_colors'
 
 export const metadata: Metadata = {
   title: 'Luna | Colors',
@@ -9,5 +11,11 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <ColorsSection />
+  return (
+    <>
+      <Overview />
+      <Customize />
+      <ColorPallete />
+    </>
+  )
 }
