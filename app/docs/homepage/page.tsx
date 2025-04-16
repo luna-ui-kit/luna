@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { HomepageSection } from './_components/section'
+import { Overview } from './_components/_overview'
 
 export const metadata: Metadata = {
   title: 'Luna | Homepage',
@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <HomepageSection />
+  return <Overview />
 }
