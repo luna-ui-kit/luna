@@ -10,7 +10,7 @@ import {
 } from '@/luna/blocks'
 
 export const metadata: Metadata = {
-  title: 'Luna | Homepage 001',
+  title: 'Luna UI Kit | Homepage 001',
   description: 'Homepage 001',
   alternates: {
     canonical: 'https://luna-ui-kit.com/homepage/1'

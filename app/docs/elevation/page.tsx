@@ -3,7 +3,7 @@ import { Overview } from './_components/_overview'
 import { Customize } from './_components/_customize'
 
 export const metadata: Metadata = {
-  title: 'Luna | Elevation',
+  title: 'Luna UI Kit | Elevation',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/elevation'
   }

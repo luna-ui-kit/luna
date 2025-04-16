@@ -4,7 +4,7 @@ import { Customize } from './_components/_customize'
 import Code from './_components/_code'
 
 export const metadata: Metadata = {
-  title: 'Luna | Divider',
+  title: 'Luna UI Kit | Divider',
   alternates: {
     canonical: 'https://luna-ui-kit.com/docs/divider'
   }
