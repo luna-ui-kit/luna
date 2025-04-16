@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
-import { IconsSection } from './_components/_section'
+import { Overview } from './_components/_overview'
+import Code from './_components/_code'
 
 export const metadata: Metadata = {
   title: 'Luna | Icons',
@@ -9,5 +10,10 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <IconsSection />
+  return (
+    <>
+      <Overview />
+      <Code />
+    </>
+  )
 }
