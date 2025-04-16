@@ -1,10 +1,10 @@
 'use client'
-import { Button } from '@/luna/components'
 import { Box, Typography, useTheme } from '@mui/material'
+import { Button } from '@/luna/components'
 import Link from 'next/link'
 import { Levels } from '../_levels'
 
-export const ElevationSection = () => {
+export const Overview = () => {
   const theme = useTheme()
 
   return (
