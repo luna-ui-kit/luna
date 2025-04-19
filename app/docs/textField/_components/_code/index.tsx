@@ -11,20 +11,14 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { Avatar } from '@/luna/components'
-import { IconUser } from '@tabler/icons-react'
+import { TextField } from '@/luna/components'
 
 export default function Page() {
   return (
     <>
-      <Avatar sx={{ width: 32, height: 32 }}> <IconUser size={16} /> </Avatar>
-      <Avatar sx={{ width: 40, height: 40 }}> <IconUser size={16} /> </Avatar>
+      <TextField variant='outlined' label='Outlined' helperText='Helper text' />
 
-      <Avatar sx={{ width: 32, height: 32 }}>H</Avatar>
-      <Avatar sx={{ width: 40, height: 40 }}>H</Avatar>
-
-      <Avatar sx={{ width: 32, height: 32 }} alt='' src='/assets/user.jpg' />
-      <Avatar sx={{ width: 40, height: 40 }} alt='' src='/assets/user.jpg' />
+      <TextField variant='outlined' label='Textarea' multiline minRows={4} />
     </>
   )
 }`

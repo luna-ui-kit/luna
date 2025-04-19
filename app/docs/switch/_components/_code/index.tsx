@@ -11,20 +11,19 @@ import { useEffect, useState } from 'react'
 import { codeToHtml } from 'shiki'
 
 const codeSnippet = `// Usage:
-import { Avatar } from '@/luna/components'
-import { IconUser } from '@tabler/icons-react'
+import { FormControlLabel, FormGroup } from '@mui/material'
+import { Switch } from '@/luna/components'
 
 export default function Page() {
   return (
     <>
-      <Avatar sx={{ width: 32, height: 32 }}> <IconUser size={16} /> </Avatar>
-      <Avatar sx={{ width: 40, height: 40 }}> <IconUser size={16} /> </Avatar>
+      <FormGroup>
+        <FormControlLabel control={<Switch defaultChecked />} label='Label' />
 
-      <Avatar sx={{ width: 32, height: 32 }}>H</Avatar>
-      <Avatar sx={{ width: 40, height: 40 }}>H</Avatar>
+        <FormControlLabel required control={<Switch />} label='Required' />
 
-      <Avatar sx={{ width: 32, height: 32 }} alt='' src='/assets/user.jpg' />
-      <Avatar sx={{ width: 40, height: 40 }} alt='' src='/assets/user.jpg' />
+        <FormControlLabel disabled control={<Switch />} label='Disabled' />
+      </FormGroup>
     </>
   )
 }`

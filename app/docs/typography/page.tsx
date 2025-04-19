@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
-import { TypographySection } from './_components/_section'
+import { Overview } from './_components/_overview'
+import { Example } from './_components/_example'
 
 export const metadata: Metadata = {
   title: 'Luna UI Kit | Typography',
@@ -9,5 +10,10 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <TypographySection />
+  return (
+    <>
+      <Overview />
+      <Example />
+    </>
+  )
 }

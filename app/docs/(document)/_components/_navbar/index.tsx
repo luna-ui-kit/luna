@@ -29,14 +29,20 @@ export function Navbar() {
         >
           <Box sx={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
             <IconButton
+              aria-label='Menu Button'
               sx={{ display: { sm: 'flex', md: 'none' } }}
               onClick={handleDrawerToggle}
             >
               <IconMenu2 />
             </IconButton>
 
-            <Link href='/'>
-              <Image src='/logo.webp' alt='' width={83} height={24} />
+            <Link href='/' aria-label='Home'>
+              <Image
+                src='/logo.webp'
+                alt='Luna UI Kit Logo'
+                width={83}
+                height={24}
+              />
             </Link>
           </Box>
 

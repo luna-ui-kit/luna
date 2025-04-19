@@ -41,7 +41,8 @@ export default function Page() {
         >
           <Image
             src={cover}
-            alt=''
+            alt='Luna UI Kit'
+            priority
             style={{
               width: '100%',
               height: 'auto',
