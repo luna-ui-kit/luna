@@ -137,6 +137,7 @@ export const GettingStartedSection = () => {
                 width: 48,
                 height: 48
               }}
+              alt='Me'
               src='/me/profile.png'
             />
 

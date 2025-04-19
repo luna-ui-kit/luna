@@ -65,7 +65,7 @@ export default function Code() {
           >
             <Typography variant='titleMedium'>Code</Typography>
 
-            <IconButton>
+            <IconButton aria-label='Show Code'>
               {isHidden ? <IconChevronDown /> : <IconChevronUp />}
             </IconButton>
           </Box>
