@@ -16,6 +16,7 @@ export const menuItems = {
     { link: '/docs/dialog', lable: '↳ Dialog' },
     { link: '/docs/divider', lable: '↳ Divider' },
     { link: '/docs/fab', lable: '↳ FAB' },
+    { link: '/docs/pagination', lable: '↳ Pagination' },
     { link: '/docs/progress', lable: '↳ Progress' },
     { link: '/docs/radioGroup', lable: '↳ Radio Group' },
     { link: '/docs/rating', lable: '↳ Rating' },
