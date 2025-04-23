@@ -10,7 +10,7 @@ import { Button, Snackbar } from '@/luna/components'
 import { IconUserCircle, IconX } from '@tabler/icons-react'
 import { Box, IconButton } from '@mui/material'
 
-export const FirstDialog = () => {
+export const SecondSnackbar = () => {
   const [open, setOpen] = useState(false)
   const handleClickOpen = () => setOpen(true)
   const handleClose = () => setOpen(false)
@@ -24,7 +24,7 @@ export const FirstDialog = () => {
   return (
     <>
       <Button variant='outlined' onClick={handleClickOpen}>
-        Open First Snackbar
+        Open Second Snackbar
       </Button>
 
       <Snackbar
@@ -42,7 +42,8 @@ export const FirstDialog = () => {
       />
     </>
   )
-}`
+}
+`
 
 export default function SecondSnackbarCode() {
   const [code, setCode] = useState<undefined | string>()

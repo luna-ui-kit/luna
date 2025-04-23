@@ -49,6 +49,28 @@ export const Customize = () => {
 
         <Link
           target='_blank'
+          href={
+            'https://medium.com/@saleh_aka_jim/inside-luna-ui-kit-alert-component-b6fcd74d5223'
+          }
+        >
+          <Button variant='link'>Inside Luna UI Kit: Alert Component</Button>
+        </Link>
+      </Box>
+
+      <Box
+        display='flex'
+        gap='8px'
+        justifyContent='space-between'
+        alignItems='center'
+        flexWrap='wrap'
+        border={`1px solid ${theme.palette.grey[300]}`}
+        borderRadius='16px'
+        padding='16px'
+      >
+        <Typography variant='labelMedium'>Learn more</Typography>
+
+        <Link
+          target='_blank'
           href={'https://mui.com/material-ui/customization/how-to-customize/'}
         >
           <Button variant='link'>MUI Customization</Button>
