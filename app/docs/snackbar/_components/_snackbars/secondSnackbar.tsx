@@ -18,7 +18,7 @@ export const SecondSnackbar = () => {
   return (
     <>
       <Button variant='outlined' onClick={handleClickOpen}>
-        Open First Snackbar
+        Open Second Snackbar
       </Button>
 
       <Snackbar

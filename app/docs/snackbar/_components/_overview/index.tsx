@@ -2,6 +2,7 @@
 import { Box, Typography, useTheme } from '@mui/material'
 import { FirstSnackbar } from '../_snackbars/firstSnackbar'
 import { SecondSnackbar } from '../_snackbars/secondSnackbar'
+import { ThirdSnackbar } from '../_snackbars/thirdSnackbar'
 
 export const Overview = () => {
   const theme = useTheme()
@@ -22,6 +23,7 @@ export const Overview = () => {
       <Box display='flex' flexWrap='wrap' gap='12px'>
         <FirstSnackbar />
         <SecondSnackbar />
+        <ThirdSnackbar />
       </Box>
     </Box>
   )
