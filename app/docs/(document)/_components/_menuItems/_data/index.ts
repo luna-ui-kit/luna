@@ -23,6 +23,7 @@ export const menuItems = {
     { link: '/docs/select', lable: '↳ Select' },
     { link: '/docs/snackbar', lable: '↳ Snackbar' },
     { link: '/docs/switch', lable: '↳ Switch' },
+    { link: '/docs/tabGroup', lable: '↳ Tab Group' },
     { link: '/docs/tag', lable: '↳ Tag' },
     { link: '/docs/textField', lable: '↳ Text Field' }
   ],
