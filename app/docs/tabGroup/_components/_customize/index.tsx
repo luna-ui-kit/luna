@@ -32,8 +32,14 @@ export const Customize = () => {
         borderRadius='12px'
         sx={{ background: theme.palette.grey[200] }}
       >
-        <Typography variant='bodySmall'>@/luna/components/button</Typography>
-        <Typography variant='bodySmall'>@/mui.d.ts</Typography>
+        <Typography variant='bodySmall'>@/luna/components/iosTab</Typography>
+        <Typography variant='bodySmall'>
+          @/luna/components/iosTabsGroup
+        </Typography>
+        <Typography variant='bodySmall'>@/luna/components/muiTab</Typography>
+        <Typography variant='bodySmall'>
+          @/luna/components/muiTabsGroup
+        </Typography>
       </Box>
 
       <Box

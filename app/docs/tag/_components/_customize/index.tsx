@@ -32,7 +32,7 @@ export const Customize = () => {
         borderRadius='12px'
         sx={{ background: theme.palette.grey[200] }}
       >
-        <Typography variant='bodySmall'>@/luna/components/button</Typography>
+        <Typography variant='bodySmall'>@/luna/components/tag</Typography>
         <Typography variant='bodySmall'>@/mui.d.ts</Typography>
       </Box>
 

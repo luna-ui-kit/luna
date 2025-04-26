@@ -8,6 +8,9 @@ export const Chip = styled(MuiCheckbox)<ChipProps>(({ theme }) => ({
   borderRadius: 20,
   fontSize: '14px',
   fontWeight: '500',
+  border: `1px solid ${theme.palette.grey[200]}`,
+  color: theme.palette.text.primary,
+  backgroundColor: theme.palette.background.default,
 
   variants: [
     {
