@@ -33,6 +33,7 @@ export const Customize = () => {
         sx={{ background: theme.palette.grey[200] }}
       >
         <Typography variant='bodySmall'>@/luna/components/button</Typography>
+        <Typography variant='bodySmall'>@/mui.d.ts</Typography>
       </Box>
 
       <Box
