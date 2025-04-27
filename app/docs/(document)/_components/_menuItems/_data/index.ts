@@ -25,6 +25,7 @@ export const menuItems = {
     { link: '/docs/switch', lable: '↳ Switch' },
     { link: '/docs/tabGroup', lable: '↳ Tab Group' },
     { link: '/docs/tag', lable: '↳ Tag' },
+    { link: '/docs/table', lable: '↳ Table' },
     { link: '/docs/textField', lable: '↳ Text Field' }
   ],
   pages: [{ link: '/docs/homepage', lable: '↳ Homepage (2)' }]
