@@ -50,6 +50,7 @@ const CustomExpandIcon = () => {
 const AccordionSummary = styled((props: AccordionSummaryProps) => (
   <MuiAccordionSummary expandIcon={<CustomExpandIcon />} {...props} />
 ))(() => ({
+  fontFamily: 'inherit',
   backgroundColor: 'none',
   borderRadius: '12px',
   [`& .${accordionSummaryClasses.expandIconWrapper}.${accordionSummaryClasses.expanded}`]:
