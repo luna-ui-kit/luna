@@ -1,9 +1,8 @@
 'use client'
-import { Accordions, BlockWrapper } from '@/luna/components'
+import { BlockWrapper } from '@/luna/components'
 import { Grid, Typography, useTheme } from '@mui/material'
 import Image from 'next/image'
 import kickstartImage from '@/public/assets/image004.webp'
-import { data } from './data'
 
 export function Kickstart002() {
   const theme = useTheme()
@@ -55,7 +54,7 @@ export function Kickstart002() {
             Quis autem veleum iure repreh enderit.
           </Typography>
 
-          <Accordions data={data} />
+          {/* <Accordions data={data} /> */}
         </Grid>
       </Grid>
     </BlockWrapper>
