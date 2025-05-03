@@ -1,3 +1,5 @@
+export * from './_accordion/_accordion_001'
+
 export * from './_callToAction/_callToAction_001'
 export * from './_callToAction/_callToAction_002'
 

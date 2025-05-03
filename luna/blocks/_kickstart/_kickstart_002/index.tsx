@@ -1,9 +1,10 @@
 'use client'
-import { Accordions, BlockWrapper } from '@/luna/components'
+import { BlockWrapper } from '@/luna/components'
 import { Grid, Typography, useTheme } from '@mui/material'
 import Image from 'next/image'
 import kickstartImage from '@/public/assets/image004.webp'
 import { data } from './data'
+import { Accordions } from '../../_accordion/_accordion_001'
 
 export function Kickstart002() {
   const theme = useTheme()
