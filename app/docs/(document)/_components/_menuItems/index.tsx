@@ -59,6 +59,16 @@ export const MenuItems = () => {
       ))}
 
       <Typography variant='bodySmall' color='textDisabled' sx={{ my: '8px' }}>
+        Blocks
+      </Typography>
+
+      {menuItems.blocks.map((i, _) => (
+        <Link key={_} href={i.link}>
+          <ItemButton active={i.link === pathname} lable={i.lable} />
+        </Link>
+      ))}
+
+      <Typography variant='bodySmall' color='textDisabled' sx={{ my: '8px' }}>
         Pages
       </Typography>
 

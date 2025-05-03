@@ -13,6 +13,7 @@ import { Box } from '@mui/material'
 
 interface data {
   expanded: string
+  icon: React.ReactElement
   title: string
   detail: string
 }
@@ -20,14 +21,14 @@ interface data {
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  borderTop: `1px solid ${theme.palette.divider}`,
-  borderBottom: `1px solid ${theme.palette.divider}`,
-  backgroundColor: theme.palette.background.paper,
-  '&:not(:last-child)': {
-    borderBottom: 0
-  },
+  borderRadius: '12px',
+  marginBottom: '8px',
+  backgroundColor: 'unset',
   '&::before': {
     display: 'none'
+  },
+  '&.Mui-expanded': {
+    backgroundColor: theme.palette.background.paper
   }
 }))
 
@@ -49,15 +50,17 @@ const CustomExpandIcon = () => {
 
 const AccordionSummary = styled((props: AccordionSummaryProps) => (
   <MuiAccordionSummary expandIcon={<CustomExpandIcon />} {...props} />
-))(({ theme }) => ({
-  backgroundColor: theme.palette.background.paper,
-  flexDirection: 'row-reverse',
+))(() => ({
+  backgroundColor: 'none',
+  borderRadius: '12px',
   [`& .${accordionSummaryClasses.expandIconWrapper}.${accordionSummaryClasses.expanded}`]:
     {
       transform: 'none'
     },
   [`& .${accordionSummaryClasses.content}`]: {
-    marginLeft: theme.spacing(1)
+    display: 'flex',
+    alignItems: 'center',
+    gap: '6px'
   }
 }))
 
@@ -67,7 +70,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: 'none'
 }))
 
-export function Accordion001({ data }: { data: data[] }) {
+export function Accordion007({ data }: { data: data[] }) {
   const [expanded, setExpanded] = useState<string | false>('panel1')
 
   const handleChange =
@@ -84,6 +87,7 @@ export function Accordion001({ data }: { data: data[] }) {
           onChange={handleChange(item.expanded)}
         >
           <AccordionSummary>
+            {item.icon}
             <Typography variant='titleSmall'>{item.title}</Typography>
           </AccordionSummary>
           <AccordionDetails>

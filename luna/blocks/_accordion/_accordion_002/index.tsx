@@ -51,14 +51,10 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
   <MuiAccordionSummary expandIcon={<CustomExpandIcon />} {...props} />
 ))(({ theme }) => ({
   backgroundColor: theme.palette.background.paper,
-  flexDirection: 'row-reverse',
   [`& .${accordionSummaryClasses.expandIconWrapper}.${accordionSummaryClasses.expanded}`]:
     {
       transform: 'none'
-    },
-  [`& .${accordionSummaryClasses.content}`]: {
-    marginLeft: theme.spacing(1)
-  }
+    }
 }))
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
@@ -67,7 +63,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: 'none'
 }))
 
-export function Accordion001({ data }: { data: data[] }) {
+export function Accordion002({ data }: { data: data[] }) {
   const [expanded, setExpanded] = useState<string | false>('panel1')
 
   const handleChange =

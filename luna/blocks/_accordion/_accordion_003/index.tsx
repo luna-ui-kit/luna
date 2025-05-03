@@ -8,7 +8,7 @@ import MuiAccordionSummary, {
 } from '@mui/material/AccordionSummary'
 import MuiAccordionDetails from '@mui/material/AccordionDetails'
 import Typography from '@mui/material/Typography'
-import { IconMinus, IconPlus } from '@tabler/icons-react'
+import { IconChevronDown, IconChevronUp } from '@tabler/icons-react'
 import { Box } from '@mui/material'
 
 interface data {
@@ -20,12 +20,9 @@ interface data {
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  borderTop: `1px solid ${theme.palette.divider}`,
-  borderBottom: `1px solid ${theme.palette.divider}`,
+  borderRadius: '12px',
+  marginBottom: '8px',
   backgroundColor: theme.palette.background.paper,
-  '&:not(:last-child)': {
-    borderBottom: 0
-  },
   '&::before': {
     display: 'none'
   }
@@ -41,8 +38,8 @@ const CustomExpandIcon = () => {
         '.Mui-expanded & > .expandIconWrapper': { display: 'flex' }
       }}
     >
-      <IconMinus className='expandIconWrapper' />
-      <IconPlus className='collapsIconWrapper' />
+      <IconChevronUp className='expandIconWrapper' />
+      <IconChevronDown className='collapsIconWrapper' />
     </Box>
   )
 }
@@ -52,6 +49,7 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
 ))(({ theme }) => ({
   backgroundColor: theme.palette.background.paper,
   flexDirection: 'row-reverse',
+  borderRadius: '12px',
   [`& .${accordionSummaryClasses.expandIconWrapper}.${accordionSummaryClasses.expanded}`]:
     {
       transform: 'none'
@@ -67,7 +65,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: 'none'
 }))
 
-export function Accordion001({ data }: { data: data[] }) {
+export function Accordion003({ data }: { data: data[] }) {
   const [expanded, setExpanded] = useState<string | false>('panel1')
 
   const handleChange =
