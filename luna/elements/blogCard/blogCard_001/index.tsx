@@ -13,7 +13,7 @@ type Props = {
   }
 }
 
-export const BlogCard = ({ post }: Props) => {
+export const BlogCard001 = ({ post }: Props) => {
   return (
     <Box
       display='flex'
