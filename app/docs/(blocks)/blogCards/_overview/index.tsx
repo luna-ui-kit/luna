@@ -1,5 +1,10 @@
 'use client'
-import { BlogCards001, BlogCards002, BlogCards003 } from '@/luna/blocks'
+import {
+  BlogCards001,
+  BlogCards002,
+  BlogCards003,
+  BlogCards004
+} from '@/luna/blocks'
 import { Box, Typography, useTheme } from '@mui/material'
 import { ThreeBlogPostsData, TwoBlogPostsData } from '../_data'
 
@@ -51,6 +56,21 @@ export const Overview = () => {
         </Box>
 
         <BlogCards003 BlogPostsData={ThreeBlogPostsData} />
+      </Box>
+
+      <Box
+        display='flex'
+        flexDirection='column'
+        borderRadius='24px'
+        gap='24px'
+        paddingY='24px'
+        sx={{ background: theme.palette.background.paper }}
+      >
+        <Box display='flex' flexDirection='column' gap='4px' paddingX='24px'>
+          <Typography variant='titleMedium'>[Blog Cards] [004]</Typography>
+        </Box>
+
+        <BlogCards004 BlogPostsData={ThreeBlogPostsData} />
       </Box>
     </>
   )
