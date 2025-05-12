@@ -28,6 +28,9 @@ export const menuItems = {
     { link: '/docs/table', lable: '↳ Table' },
     { link: '/docs/textField', lable: '↳ Text Field' }
   ],
-  blocks: [{ link: '/docs/accordion', lable: '↳ Accordion (7)' }],
+  blocks: [
+    { link: '/docs/accordion', lable: '↳ Accordion (7)' },
+    { link: '/docs/blogCards', lable: '↳ Blog Cards (10)' }
+  ],
   pages: [{ link: '/docs/homepage', lable: '↳ Homepage (2)' }]
 }
