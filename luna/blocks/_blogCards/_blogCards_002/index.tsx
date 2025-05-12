@@ -19,7 +19,7 @@ export const BlogCards002 = ({ BlogPostsData }: Props) => {
       <Box
         display='flex'
         flexDirection={{ xs: 'column', lg: 'row' }}
-        alignItems='center'
+        alignItems='baseline'
         justifyContent='center'
         gap={{ xs: '24px', md: '32px', lg: '40px' }}
       >
