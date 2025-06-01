@@ -22,6 +22,7 @@ export const BlogCard004 = ({ post }: Props) => {
       gap='16px'
       borderRadius='24px'
       padding='16px'
+      boxSizing='border-box'
     >
       <Image
         src={image}

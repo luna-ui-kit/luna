@@ -26,6 +26,7 @@ export const BlogCard002 = ({ post }: Props) => {
       borderRadius='24px'
       padding='16px'
       sx={{ background: theme.palette.background.paper }}
+      boxSizing='border-box'
     >
       <Image
         src={image}

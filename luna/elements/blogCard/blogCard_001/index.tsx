@@ -20,6 +20,7 @@ export const BlogCard001 = ({ post }: Props) => {
       flexDirection={{ xs: 'column', sm: 'row' }}
       alignItems='center'
       gap='16px'
+      boxSizing='border-box'
     >
       <Image
         src={image}
