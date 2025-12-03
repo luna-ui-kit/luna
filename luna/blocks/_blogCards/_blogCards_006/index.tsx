@@ -4,6 +4,7 @@ import { Box } from '@mui/material'
 
 type Post = {
   date: string
+  author: string
   categories: string[]
   title: string
   shortDescription: string
