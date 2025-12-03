@@ -11,6 +11,7 @@ export * from './_blogCards/_blogCards_002'
 export * from './_blogCards/_blogCards_003'
 export * from './_blogCards/_blogCards_004'
 export * from './_blogCards/_blogCards_005'
+export * from './_blogCards/_blogCards_006'
 
 export * from './_callToAction/_callToAction_001'
 export * from './_callToAction/_callToAction_002'
