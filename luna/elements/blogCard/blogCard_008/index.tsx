@@ -1,11 +1,9 @@
 import { Button } from '@/luna/components'
-import { Box, Typography, useTheme } from '@mui/material'
-import image from '@/public/assets/image-placeholder.jpg'
-import Image from 'next/image'
-import { IconArrowRight } from '@tabler/icons-react'
 import { BlogPost } from '@/luna/data'
+import { Box, Typography, useTheme } from '@mui/material'
+import { IconArrowRight } from '@tabler/icons-react'
 
-export const BlogCard002 = ({ post }: { post: BlogPost }) => {
+export const BlogCard008 = ({ post }: { post: BlogPost }) => {
   const theme = useTheme()
 
   return (
@@ -13,27 +11,16 @@ export const BlogCard002 = ({ post }: { post: BlogPost }) => {
       display='flex'
       flexDirection='column'
       width='100%'
-      alignItems='center'
       gap='16px'
       borderRadius='24px'
       padding='16px'
+      border={`1px solid ${theme.palette.grey[900]}`}
       sx={{ background: theme.palette.background.paper }}
       boxSizing='border-box'
     >
-      <Image
-        src={image}
-        alt=''
-        style={{
-          objectFit: 'cover',
-          borderRadius: '12px',
-          height: '160px',
-          width: '100%'
-        }}
-      />
-
       <Box display='flex' flexDirection='column' gap='8px'>
         <Typography variant='labelSmall' color='textDisabled'>
-          {post.date} | {post.categories.join(', ')}
+          {post.date}
         </Typography>
 
         <Typography variant='titleSmall' color='textPrimary'>
@@ -43,14 +30,27 @@ export const BlogCard002 = ({ post }: { post: BlogPost }) => {
         <Typography variant='bodySmall' color='textSecondary'>
           {post.shortDescription}
         </Typography>
+      </Box>
 
-        <Button
-          variant='contained'
-          endIcon={<IconArrowRight color='white' />}
-          sx={{ mt: '8px', width: '100%' }}
-        >
-          Read More
-        </Button>
+      <Button
+        variant='secondary'
+        endIcon={<IconArrowRight />}
+        sx={{ mt: '8px', width: '100%' }}
+      >
+        Read More
+      </Button>
+
+      <Box
+        display='flex'
+        flexDirection='row'
+        alignItems='center'
+        justifyContent='center'
+        width='100%'
+        gap='8px'
+      >
+        <Typography variant='labelSmall' color='textDisabled'>
+          {post.author} | {post.comments}
+        </Typography>
       </Box>
     </Box>
   )

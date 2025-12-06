@@ -2,18 +2,9 @@ import { Box, IconButton, Typography, useTheme } from '@mui/material'
 import image from '@/public/assets/image-placeholder.jpg'
 import Image from 'next/image'
 import { IconArrowUpRight } from '@tabler/icons-react'
+import { BlogPost } from '@/luna/data'
 
-type Props = {
-  post: {
-    date: string
-    author: string
-    categories: string[]
-    title: string
-    shortDescription: string
-  }
-}
-
-export const BlogCard006 = ({ post }: Props) => {
+export const BlogCard006 = ({ post }: { post: BlogPost }) => {
   const theme = useTheme()
 
   return (
