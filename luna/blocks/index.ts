@@ -15,6 +15,7 @@ export * from './_blogCards/_blogCards_006'
 export * from './_blogCards/_blogCards_007'
 export * from './_blogCards/_blogCards_008'
 export * from './_blogCards/_blogCards_009'
+export * from './_blogCards/_blogCards_010'
 
 export * from './_callToAction/_callToAction_001'
 export * from './_callToAction/_callToAction_002'

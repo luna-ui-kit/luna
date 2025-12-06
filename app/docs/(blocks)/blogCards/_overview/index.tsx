@@ -8,7 +8,8 @@ import {
   BlogCards006,
   BlogCards007,
   BlogCards008,
-  BlogCards009
+  BlogCards009,
+  BlogCards010
 } from '@/luna/blocks'
 import { ThreeBlogPostsData, TwoBlogPostsData } from '@/luna/data'
 import { Box, Typography, useTheme } from '@mui/material'
@@ -151,6 +152,21 @@ export const Overview = () => {
         </Box>
 
         <BlogCards009 data={ThreeBlogPostsData} />
+      </Box>
+
+      <Box
+        display='flex'
+        flexDirection='column'
+        borderRadius='24px'
+        gap='24px'
+        paddingY='24px'
+        sx={{ background: theme.palette.grey[100] }}
+      >
+        <Box display='flex' flexDirection='column' gap='4px' paddingX='24px'>
+          <Typography variant='titleMedium'>[Blog Cards] [010]</Typography>
+        </Box>
+
+        <BlogCards010 data={TwoBlogPostsData} />
       </Box>
     </>
   )
