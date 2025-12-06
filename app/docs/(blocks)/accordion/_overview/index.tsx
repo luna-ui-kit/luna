@@ -9,7 +9,7 @@ import {
   Accordion006,
   Accordion007
 } from '@/luna/blocks'
-import { AccordionData } from '../_data'
+import { AccordionData } from '@/luna/data'
 
 export const Overview = () => {
   const theme = useTheme()

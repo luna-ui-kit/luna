@@ -1,2 +1,5 @@
-export * from './_BlogCards'
-export * from './_BlogCards/types'
+export * from './_blogCards'
+export * from './_blogCards/types'
+
+export * from './_accordion'
+export * from './_accordion/types'
