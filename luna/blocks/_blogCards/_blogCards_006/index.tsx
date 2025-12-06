@@ -1,19 +1,9 @@
 import { BlockWrapper } from '@/luna/components'
+import { BlogPosts } from '@/luna/data'
 import { BlogCard006 } from '@/luna/elements'
 import { Box } from '@mui/material'
 
-type Post = {
-  date: string
-  categories: string[]
-  title: string
-  shortDescription: string
-}
-
-type Props = {
-  BlogPostsData: Post[]
-}
-
-export const BlogCards006 = ({ BlogPostsData }: Props) => {
+export const BlogCards006 = ({ data }: { data: BlogPosts }) => {
   return (
     <BlockWrapper>
       <Box
@@ -23,7 +13,7 @@ export const BlogCards006 = ({ BlogPostsData }: Props) => {
         justifyContent='center'
         gap={{ xs: '24px', md: '32px', lg: '40px' }}
       >
-        {BlogPostsData.map((post, _) => (
+        {data.map((post, _) => (
           <BlogCard006 key={_} post={post} />
         ))}
       </Box>

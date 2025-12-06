@@ -5,30 +5,26 @@ import Image from 'next/image'
 import { IconArrowRight } from '@tabler/icons-react'
 import { BlogPost } from '@/luna/data'
 
-export const BlogCard002 = ({ post }: { post: BlogPost }) => {
+export const BlogCard010 = ({ post }: { post: BlogPost }) => {
   const theme = useTheme()
 
   return (
     <Box
       display='flex'
-      flexDirection='column'
-      width='100%'
-      alignItems='center'
+      flexDirection={{ xs: 'column', sm: 'row' }}
+      alignItems='start'
       gap='16px'
+      boxSizing='border-box'
       borderRadius='24px'
       padding='16px'
       sx={{ background: theme.palette.background.paper }}
-      boxSizing='border-box'
     >
       <Image
         src={image}
         alt=''
-        style={{
-          objectFit: 'cover',
-          borderRadius: '12px',
-          height: '160px',
-          width: '100%'
-        }}
+        width={180}
+        height={160}
+        style={{ objectFit: 'cover', borderRadius: '12px' }}
       />
 
       <Box display='flex' flexDirection='column' gap='8px'>
@@ -40,7 +36,17 @@ export const BlogCard002 = ({ post }: { post: BlogPost }) => {
           {post.title}
         </Typography>
 
-        <Typography variant='bodySmall' color='textSecondary'>
+        <Typography
+          variant='bodySmall'
+          color='textSecondary'
+          sx={{
+            display: '-webkit-box',
+            WebkitBoxOrient: 'vertical',
+            WebkitLineClamp: 2,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis'
+          }}
+        >
           {post.shortDescription}
         </Typography>
 

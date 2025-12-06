@@ -10,12 +10,7 @@ import MuiAccordionDetails from '@mui/material/AccordionDetails'
 import Typography from '@mui/material/Typography'
 import { IconMinus, IconPlus } from '@tabler/icons-react'
 import { Box } from '@mui/material'
-
-interface data {
-  expanded: string
-  title: string
-  detail: string
-}
+import { AccordionDataType } from '@/luna/data'
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -65,7 +60,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: 'none'
 }))
 
-export function Accordion006({ data }: { data: data[] }) {
+export function Accordion006({ data }: { data: AccordionDataType[] }) {
   const [expanded, setExpanded] = useState<string | false>('panel1')
 
   const handleChange =
