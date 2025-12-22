@@ -3,6 +3,7 @@ import { ThemeComponent } from '@/luna/theme/ThemeComponent'
 import { Quicksand } from 'next/font/google'
 import '@/luna/styles/globals.css'
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/next'
 
 const quicksand = Quicksand({
   weight: ['700', '600', '500', '400'],
@@ -45,6 +46,8 @@ export default function RootLayout({
       </head>
 
       <body>
+        <Analytics />
+
         <AppRouterCacheProvider>
           <ThemeComponent>{children}</ThemeComponent>
         </AppRouterCacheProvider>
