@@ -19,7 +19,7 @@ export const TwoBlogPostsData: BlogPosts = [
   }
 ]
 
-export const ThreeBlogPostsData = [
+export const ThreeBlogPostsData: BlogPosts = [
   {
     date: 'Jul 18, 2024',
     author: `Michael`,
