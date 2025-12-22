@@ -8,3 +8,5 @@ export type BlogPost = {
 }
 
 export type BlogPosts = BlogPost[]
+
+// Some Errors...
