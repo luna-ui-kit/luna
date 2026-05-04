@@ -1,11 +1,10 @@
-import { Box, Typography, useTheme } from '@mui/material'
+import { Tag } from '@/luna/components'
+import { Box, Typography } from '@mui/material'
 import image from '@/public/assets/image-placeholder.jpg'
 import Image from 'next/image'
-import { BlogPost } from '@/luna/data'
+import { BlogPost } from '../../__data/types'
 
-export const BlogCard009 = ({ post }: { post: BlogPost }) => {
-  const theme = useTheme()
-
+export const Card = ({ post }: { post: BlogPost }) => {
   return (
     <Box
       position='relative'
@@ -17,8 +16,6 @@ export const BlogCard009 = ({ post }: { post: BlogPost }) => {
       borderRadius='24px'
       height='280px'
       boxSizing='border-box'
-      alignItems='center'
-      justifyContent='center'
     >
       <Image
         src={image}
@@ -49,26 +46,25 @@ export const BlogCard009 = ({ post }: { post: BlogPost }) => {
       <Box
         display='flex'
         flexDirection='column'
+        justifyContent='space-between'
+        height='100%'
         zIndex={3}
-        gap='8px'
-        padding='16px'
-        width='100%'
-        maxWidth='360px'
-        textAlign='center'
-        borderRadius='12px'
-        sx={{ background: theme.palette.background.paper }}
       >
-        <Typography variant='titleSmall' color='textPrimary'>
-          {post.title}
-        </Typography>
+        <Box sx={{ display: 'flex', gap: '8px' }}>
+          {post.categories.map((category, _) => (
+            <Tag key={_} label={category} color='grey' sx={{ opacity: 0.7 }} />
+          ))}
+        </Box>
 
-        <Typography
-          variant='labelSmall'
-          color='textDisabled'
-          sx={{ flexWrap: 'wrap' }}
-        >
-          {post.author} | {post.date} | {post.categories.join(', ')}
-        </Typography>
+        <Box display='flex' flexDirection='column' gap='8px'>
+          <Typography variant='labelSmall' color='white'>
+            {post.date}
+          </Typography>
+
+          <Typography variant='titleSmall' color='white'>
+            {post.title}
+          </Typography>
+        </Box>
       </Box>
     </Box>
   )

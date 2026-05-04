@@ -1,9 +1,9 @@
 import { Box, Typography } from '@mui/material'
 import image from '@/public/assets/image-placeholder.jpg'
 import Image from 'next/image'
-import { BlogPost } from '@/luna/data'
+import { BlogPost } from '../../__data/types'
 
-export const BlogCard004 = ({ post }: { post: BlogPost }) => {
+export const Card = ({ post }: { post: BlogPost }) => {
   return (
     <Box
       display='flex'

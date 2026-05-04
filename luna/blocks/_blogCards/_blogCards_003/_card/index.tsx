@@ -3,9 +3,9 @@ import { Box, Typography, useTheme } from '@mui/material'
 import image from '@/public/assets/image-placeholder.jpg'
 import Image from 'next/image'
 import { IconArrowRight } from '@tabler/icons-react'
-import { BlogPost } from '@/luna/data'
+import { BlogPost } from '../../__data/types'
 
-export const BlogCard003 = ({ post }: { post: BlogPost }) => {
+export const Card = ({ post }: { post: BlogPost }) => {
   const theme = useTheme()
 
   return (

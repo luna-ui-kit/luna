@@ -11,7 +11,10 @@ import {
   BlogCards009,
   BlogCards010
 } from '@/luna/blocks'
-import { ThreeBlogPostsData, TwoBlogPostsData } from '@/luna/data'
+import {
+  ThreeBlogPostsData,
+  TwoBlogPostsData
+} from '@/luna/blocks/_blogCards/__data'
 import { Box, Typography, useTheme } from '@mui/material'
 
 export const Overview = () => {
