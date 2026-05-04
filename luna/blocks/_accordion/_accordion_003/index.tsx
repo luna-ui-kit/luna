@@ -10,7 +10,7 @@ import MuiAccordionDetails from '@mui/material/AccordionDetails'
 import Typography from '@mui/material/Typography'
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react'
 import { Box } from '@mui/material'
-import { AccordionDataType } from '@/luna/data'
+import { AccordionDataType } from '../__data/types'
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />

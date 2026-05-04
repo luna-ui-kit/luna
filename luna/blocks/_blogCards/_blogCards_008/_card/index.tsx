@@ -1,9 +1,9 @@
 import { Button } from '@/luna/components'
-import { BlogPost } from '@/luna/data'
 import { Box, Typography, useTheme } from '@mui/material'
 import { IconArrowRight } from '@tabler/icons-react'
+import { BlogPost } from '../../__data/types'
 
-export const BlogCard008 = ({ post }: { post: BlogPost }) => {
+export const Card = ({ post }: { post: BlogPost }) => {
   const theme = useTheme()
 
   return (

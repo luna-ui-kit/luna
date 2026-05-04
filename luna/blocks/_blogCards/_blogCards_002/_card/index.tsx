@@ -1,25 +1,34 @@
 import { Button } from '@/luna/components'
-import { Box, Typography } from '@mui/material'
+import { Box, Typography, useTheme } from '@mui/material'
 import image from '@/public/assets/image-placeholder.jpg'
 import Image from 'next/image'
 import { IconArrowRight } from '@tabler/icons-react'
-import { BlogPost } from '@/luna/data'
+import { BlogPost } from '../../__data/types'
 
-export const BlogCard001 = ({ post }: { post: BlogPost }) => {
+export const Card = ({ post }: { post: BlogPost }) => {
+  const theme = useTheme()
+
   return (
     <Box
       display='flex'
-      flexDirection={{ xs: 'column', sm: 'row' }}
+      flexDirection='column'
+      width='100%'
       alignItems='center'
       gap='16px'
+      borderRadius='24px'
+      padding='16px'
+      sx={{ background: theme.palette.background.paper }}
       boxSizing='border-box'
     >
       <Image
         src={image}
         alt=''
-        width={240}
-        height={240}
-        style={{ objectFit: 'cover', borderRadius: '24px' }}
+        style={{
+          objectFit: 'cover',
+          borderRadius: '12px',
+          height: '160px',
+          width: '100%'
+        }}
       />
 
       <Box display='flex' flexDirection='column' gap='8px'>
@@ -36,9 +45,9 @@ export const BlogCard001 = ({ post }: { post: BlogPost }) => {
         </Typography>
 
         <Button
-          variant='outlined'
-          endIcon={<IconArrowRight />}
-          sx={{ mt: '8px' }}
+          variant='contained'
+          endIcon={<IconArrowRight color='white' />}
+          sx={{ mt: '8px', width: '100%' }}
         >
           Read More
         </Button>

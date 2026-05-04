@@ -1,9 +1,9 @@
 import { Chip } from '@/luna/components'
-import { BlogPost } from '@/luna/data'
 import { Box, IconButton, Typography, useTheme } from '@mui/material'
 import { IconArrowUpRight } from '@tabler/icons-react'
+import { BlogPost } from '../../__data/types'
 
-export const BlogCard007 = ({ post }: { post: BlogPost }) => {
+export const Card = ({ post }: { post: BlogPost }) => {
   const theme = useTheme()
 
   return (

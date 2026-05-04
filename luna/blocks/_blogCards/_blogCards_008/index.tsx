@@ -1,7 +1,7 @@
 import { BlockWrapper } from '@/luna/components'
-import { BlogPosts } from '@/luna/data'
-import { BlogCard008 } from '@/luna/elements'
+import { BlogPosts } from '../__data/types'
 import { Box } from '@mui/material'
+import { Card } from './_card'
 
 export const BlogCards008 = ({ data }: { data: BlogPosts }) => {
   return (
@@ -14,7 +14,7 @@ export const BlogCards008 = ({ data }: { data: BlogPosts }) => {
         gap={{ xs: '24px', md: '32px', lg: '40px' }}
       >
         {data.map((post, _) => (
-          <BlogCard008 key={_} post={post} />
+          <Card key={_} post={post} />
         ))}
       </Box>
     </BlockWrapper>
