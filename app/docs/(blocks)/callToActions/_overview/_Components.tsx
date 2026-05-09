@@ -1,4 +1,4 @@
-import { CallToAction001, CallToAction002 } from '@/luna/blocks'
+import { CallToAction001, CallToAction002 } from '@/luna/blocks/_callToAction'
 
 export const Components = [
   {

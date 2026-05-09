@@ -6,7 +6,7 @@ import {
   Accordion005,
   Accordion006,
   Accordion007
-} from '@/luna/blocks'
+} from '@/luna/blocks/_accordion'
 import { AccordionData } from '@/luna/blocks/_accordion/__data'
 
 export const Components = [

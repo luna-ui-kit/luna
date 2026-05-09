@@ -9,7 +9,7 @@ import {
   BlogCards008,
   BlogCards009,
   BlogCards010
-} from '@/luna/blocks'
+} from '@/luna/blocks/_blogCards'
 import {
   ThreeBlogPostsData,
   TwoBlogPostsData
