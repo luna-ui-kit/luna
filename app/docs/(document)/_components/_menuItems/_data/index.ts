@@ -31,7 +31,8 @@ export const menuItems = {
   blocks: [
     { link: '/docs/accordion', lable: '↳ Accordion (7)' },
     { link: '/docs/blogCards', lable: '↳ Blog Cards (10)' },
-    { link: '/docs/callToActions', lable: '↳ Call To Actions (10)' }
+    { link: '/docs/callToActions', lable: '↳ Call To Actions (10)' },
+    { link: '/docs/content', lable: '↳ Content (10)' }
   ],
   pages: [{ link: '/docs/homepage', lable: '↳ Homepage (2)' }]
 }
