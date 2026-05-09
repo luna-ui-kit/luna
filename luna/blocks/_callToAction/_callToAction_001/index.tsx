@@ -23,11 +23,12 @@ export function CallToAction001() {
         >
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <Typography variant='headlineLarge' color='white'>
-              Custom Interactive Features
+              Get Started with Ease
             </Typography>
 
             <Typography variant='bodyMedium' color='white'>
-              Natus sit volur tatem accus antium laudan tium.
+              Jump right in and start building with flexible, ready-to-use
+              components.
             </Typography>
           </Box>
 
@@ -48,7 +49,7 @@ export function CallToAction001() {
               0800 212 44 77
             </Button>
 
-            <Button variant='secondary'>Learn More</Button>
+            <Button variant='secondary'>Start Now</Button>
           </Box>
         </Card>
       </Box>

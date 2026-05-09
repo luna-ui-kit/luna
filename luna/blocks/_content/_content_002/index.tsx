@@ -16,11 +16,11 @@ export function Content002() {
           }}
         >
           <Typography variant='titleMedium' color='textDisabled'>
-            Sample Subtitle
+            Design meets development
           </Typography>
 
           <Typography variant='headlineLarge'>
-            Porro est dolorem ipsum dolor sit amet consec.
+            Built for Designers and Developers
           </Typography>
         </Box>
 
@@ -33,12 +33,12 @@ export function Content002() {
               gap: '8px'
             }}
           >
-            <Typography variant='titleMedium'>Chat Support</Typography>
+            <Typography variant='titleMedium'>Code</Typography>
 
             <Typography variant='bodyMedium'>
-              Sed ut unde omnis iste natus sit volur tatem accus laudan tium
-              totam rem eaque ipsa ab illo inventore et architecto beatae vitae
-              dicta sunt explicabo enim sit asper sed dolores eos serui nesciun.
+              Luna bridges the gap between design and development. Whether
+              you’re designing screens or writing code, the components behave
+              the same way on both sides.
             </Typography>
           </Grid>
 
@@ -50,12 +50,11 @@ export function Content002() {
               gap: '8px'
             }}
           >
-            <Typography variant='titleMedium'>Video Production</Typography>
+            <Typography variant='titleMedium'>Components</Typography>
 
             <Typography variant='bodyMedium'>
-              Sed ut unde omnis iste natus sit volur tatem accus laudan tium
-              totam rem eaque ipsa ab illo inventore et architecto beatae vitae
-              dicta sunt explicabo enim sit asper sed dolores eos serui nesciun.
+              Our Figma components are structured to match the coded ones — so
+              nothing gets lost in translation.
             </Typography>
           </Grid>
         </Grid>
