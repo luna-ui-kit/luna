@@ -32,7 +32,8 @@ export const menuItems = {
     { link: '/docs/accordion', lable: '↳ Accordion (7)' },
     { link: '/docs/blogCards', lable: '↳ Blog Cards (10)' },
     { link: '/docs/callToActions', lable: '↳ Call To Actions (10)' },
-    { link: '/docs/content', lable: '↳ Content (10)' }
+    { link: '/docs/content', lable: '↳ Content (10)' },
+    { link: '/docs/counter', lable: '↳ Counter (10)' }
   ],
   pages: [{ link: '/docs/homepage', lable: '↳ Homepage (2)' }]
 }
