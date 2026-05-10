@@ -15,11 +15,10 @@ export function Content001() {
             textAlign: 'center',
             width: '100%',
             maxWidth: '720px',
-            margin: 'auto',
-            mb: '24px'
+            margin: 'auto auto 32px auto'
           }}
         >
-          <Typography variant='titleMedium' color='textDisabled'>
+          <Typography variant='titleSmall' color='textDisabled'>
             Stop reinventing the wheel
           </Typography>
 
@@ -47,7 +46,7 @@ export function Content001() {
               gap: '8px'
             }}
           >
-            <Typography variant='bodyMedium'>
+            <Typography variant='bodyMedium' color='textSecondary'>
               Every component is flexible enough to adapt, yet consistent enough
               to keep your product looking unified.
             </Typography>
@@ -63,7 +62,7 @@ export function Content001() {
               gap: '8px'
             }}
           >
-            <Typography variant='bodyMedium'>
+            <Typography variant='bodyMedium' color='textSecondary'>
               Whether you&apos;re designing in Figma or coding in Next.js, your
               work stays in sync from start to finish.
             </Typography>
@@ -79,7 +78,7 @@ export function Content001() {
               gap: '8px'
             }}
           >
-            <Typography variant='bodyMedium'>
+            <Typography variant='bodyMedium' color='textSecondary'>
               Update your color palette, spacing, and typography across all
               components with just a few tweaks.
             </Typography>

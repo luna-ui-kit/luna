@@ -2,7 +2,7 @@
 import { BlockWrapper } from '@/luna/components'
 import { Box, Grid, Typography } from '@mui/material'
 
-export function Content002() {
+export function Content004() {
   return (
     <BlockWrapper>
       <Box sx={{ paddingY: { xs: '24px', md: '40px', lg: '80px' } }}>
@@ -16,11 +16,11 @@ export function Content002() {
           }}
         >
           <Typography variant='titleSmall' color='textDisabled'>
-            Design meets development
+            Stop reinventing the wheel
           </Typography>
 
           <Typography variant='headlineLarge' color='textPrimary'>
-            Built for Designers and Developers
+            Why Choose Us
           </Typography>
         </Box>
 
@@ -33,14 +33,10 @@ export function Content002() {
               gap: '8px'
             }}
           >
-            <Typography variant='titleMedium' color='textPrimary'>
-              Code
-            </Typography>
-
             <Typography variant='bodyMedium' color='textSecondary'>
-              Luna bridges the gap between design and development. Whether
-              you’re designing screens or writing code, the components behave
-              the same way on both sides.
+              Building for multiple screen sizes? We&apos;ve already handled it.
+              Every component is built with 3 breakpoints in mind — mobile,
+              tablet, and desktop — using Figma’s Local Variables.
             </Typography>
           </Grid>
 
@@ -52,13 +48,10 @@ export function Content002() {
               gap: '8px'
             }}
           >
-            <Typography variant='titleMedium' color='textPrimary'>
-              Components
-            </Typography>
-
             <Typography variant='bodyMedium' color='textSecondary'>
-              Our Figma components are structured to match the coded ones — so
-              nothing gets lost in translation.
+              No more blank pages or messy starter files. Luna UI Kit gives you
+              a solid foundation of core elements and layouts, ready to use out
+              of the box.
             </Typography>
           </Grid>
         </Grid>
