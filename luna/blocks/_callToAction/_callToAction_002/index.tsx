@@ -23,11 +23,11 @@ export function CallToAction002() {
         >
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <Typography variant='titleMedium' color='textDisabled'>
-              Sample Subtitle
+              Curious what it can do?
             </Typography>
 
             <Typography variant='headlineLarge'>
-              Porro est dolorem ipsum dolor sit amet consec.
+              Get Started with Ease
             </Typography>
           </Box>
 

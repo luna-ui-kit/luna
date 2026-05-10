@@ -15,25 +15,24 @@ export function Content001() {
             textAlign: 'center',
             width: '100%',
             maxWidth: '720px',
-            margin: 'auto',
-            mb: '24px'
+            margin: 'auto auto 32px auto'
           }}
         >
-          <Typography variant='titleMedium' color='textDisabled'>
-            Sample Subtitle
+          <Typography variant='titleSmall' color='textDisabled'>
+            Stop reinventing the wheel
           </Typography>
 
-          <Typography variant='headlineLarge'>
-            Porro est dolorem ipsum dolor sit amet consec.
+          <Typography variant='headlineLarge' color='textPrimary'>
+            Build Once, Use Everywhere
           </Typography>
 
-          <Typography variant='bodyMedium'>
-            Lorem ipsum dolor sit amet consec tetur adipis cing elit sed do
-            eiusmod tempor ut labore et magna ad minim veniam nostrud
-            exercitation.
+          <Typography variant='bodyMedium' color='textSecondary'>
+            Save time and reduce repetition. With a system built on reusable
+            components, you can create once and reuse across all your projects —
+            without losing control over the details.
           </Typography>
 
-          <Button variant='contained'>Learn More</Button>
+          <Button variant='contained'>Explore Components</Button>
         </Box>
 
         <Grid spacing={'24px'} container>
@@ -47,10 +46,9 @@ export function Content001() {
               gap: '8px'
             }}
           >
-            <Typography variant='bodyMedium'>
-              Sed ut unde omnis iste natus sit volur tatem accus laudan tium
-              totam rem eaque ipsa ab illo inventore et architecto beatae vitae
-              dicta sunt explicabo enim sit asper sed dolores eos serui nesciun.
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Every component is flexible enough to adapt, yet consistent enough
+              to keep your product looking unified.
             </Typography>
           </Grid>
 
@@ -64,10 +62,9 @@ export function Content001() {
               gap: '8px'
             }}
           >
-            <Typography variant='bodyMedium'>
-              Sed ut unde omnis iste natus sit volur tatem accus laudan tium
-              totam rem eaque ipsa ab illo inventore et architecto beatae vitae
-              dicta sunt explicabo enim sit asper sed dolores eos serui nesciun.
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Whether you&apos;re designing in Figma or coding in Next.js, your
+              work stays in sync from start to finish.
             </Typography>
           </Grid>
 
@@ -81,10 +78,9 @@ export function Content001() {
               gap: '8px'
             }}
           >
-            <Typography variant='bodyMedium'>
-              Sed ut unde omnis iste natus sit volur tatem accus laudan tium
-              totam rem eaque ipsa ab illo inventore et architecto beatae vitae
-              dicta sunt explicabo enim sit asper sed dolores eos serui nesciun.
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Update your color palette, spacing, and typography across all
+              components with just a few tweaks.
             </Typography>
           </Grid>
         </Grid>
