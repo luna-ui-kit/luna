@@ -33,7 +33,8 @@ export const menuItems = {
     { link: '/docs/blogCards', lable: '↳ Blog Cards (10)' },
     { link: '/docs/callToActions', lable: '↳ Call To Actions (10)' },
     { link: '/docs/content', lable: '↳ Content (10)' },
-    { link: '/docs/counter', lable: '↳ Counter (10)' }
+    { link: '/docs/counter', lable: '↳ Counter (10)' },
+    { link: '/docs/drawer', lable: '↳ Drawer (Sidebar) (2)' }
   ],
   pages: [{ link: '/docs/homepage', lable: '↳ Homepage (2)' }]
 }
