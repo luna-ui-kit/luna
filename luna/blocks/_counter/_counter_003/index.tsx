@@ -1,8 +1,8 @@
 import { BlockWrapper } from '@/luna/components'
-import { Box, Typography, useTheme } from '@mui/material'
+import { Box, Divider, Typography, useTheme } from '@mui/material'
 import { CountersData } from '../__data'
 
-export const Counter001 = () => {
+export const Counter003 = () => {
   const theme = useTheme()
 
   return (
@@ -14,36 +14,39 @@ export const Counter001 = () => {
         sx={{
           paddingY: { xs: '24px', md: '40px' },
           display: 'flex',
-          gap: '24px',
           flexDirection: { xs: 'column', md: 'row' },
-          justifyContent: 'center',
-          alignItems: 'center'
+          gap: '24px'
         }}
       >
         {CountersData.map((counter, _) => (
           <Box
             key={_}
             sx={{
-              position: 'relative',
+              display: 'flex',
+              flexDirection: 'column',
               width: '100%',
-              textAlign: 'center'
+              textAlign: 'center',
+              alignItems: 'center'
             }}
           >
-            <Typography variant='displayLarge' color={theme.palette.grey[200]}>
+            <Typography variant='labelMedium' color='textSecondary'>
+              {counter.title}
+            </Typography>
+
+            <Typography variant='headlineLarge' color='textPrimary'>
               {counter.amount}+
             </Typography>
 
-            <Typography
-              variant='labelMedium'
-              color='textPrimary'
+            <Divider
               sx={{
-                position: 'absolute',
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)'
+                marginY: '16px',
+                width: '80px',
+                borderColor: theme.palette.secondary.main
               }}
-            >
-              {counter.title}
+            />
+
+            <Typography variant='bodyMedium' color='textSecondary'>
+              {counter.description}
             </Typography>
           </Box>
         ))}

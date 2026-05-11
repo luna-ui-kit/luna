@@ -2,7 +2,7 @@ import { BlockWrapper } from '@/luna/components'
 import { Box, Typography, useTheme } from '@mui/material'
 import { CountersData } from '../__data'
 
-export const Counter001 = () => {
+export const Counter007 = () => {
   const theme = useTheme()
 
   return (
@@ -14,36 +14,29 @@ export const Counter001 = () => {
         sx={{
           paddingY: { xs: '24px', md: '40px' },
           display: 'flex',
-          gap: '24px',
           flexDirection: { xs: 'column', md: 'row' },
-          justifyContent: 'center',
-          alignItems: 'center'
+          gap: '24px'
         }}
       >
         {CountersData.map((counter, _) => (
           <Box
             key={_}
             sx={{
-              position: 'relative',
+              display: 'flex',
+              flexDirection: 'column',
               width: '100%',
-              textAlign: 'center'
+              boxSizing: 'border-box',
+              paddingLeft: '16px',
+              borderLeft: '2px solid',
+              borderColor: theme.palette.primary.main
             }}
           >
-            <Typography variant='displayLarge' color={theme.palette.grey[200]}>
-              {counter.amount}+
+            <Typography variant='labelMedium' color='textSecondary'>
+              {counter.title}
             </Typography>
 
-            <Typography
-              variant='labelMedium'
-              color='textPrimary'
-              sx={{
-                position: 'absolute',
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)'
-              }}
-            >
-              {counter.title}
+            <Typography variant='headlineLarge' color='textPrimary'>
+              {counter.amount}+
             </Typography>
           </Box>
         ))}
