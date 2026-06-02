@@ -1,33 +1,64 @@
 'use client'
 import { BlockWrapper, Button, TextField } from '@/luna/components'
 import { Box, Typography } from '@mui/material'
+import { IconMail } from '@tabler/icons-react'
 
 export function EmailOptIn006() {
   return (
     <BlockWrapper>
-      <Box sx={{ paddingY: { xs: 6, md: 12 } }}>
-        <Box sx={{ maxWidth: 720, margin: '0 auto', textAlign: 'center' }}>
-          <Typography variant='titleSmall' color='textSecondary'>
-            Exclusive
-          </Typography>
-          <Typography variant='headlineLarge' sx={{ my: 2 }}>
-            Be the first to know
-          </Typography>
+      <Box
+        sx={{
+          paddingY: { xs: '24px', md: '40px', lg: '64px' },
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '24px'
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '24px',
+            width: '100%',
+            maxWidth: '600px'
+          }}
+        >
           <Box
-            component='form'
-            onSubmit={e => e.preventDefault()}
-            sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '4px'
+            }}
+          >
+            <Typography variant='headlineLarge' color='textPrimary'>
+              Receive Offers
+            </Typography>
+
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Get the latest updates, new components, and design tips straight
+              to your inbox.
+            </Typography>
+          </Box>
+
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: { xs: 'column', md: 'row' },
+              width: '100%',
+              gap: '16px'
+            }}
           >
             <TextField
-              label='Email address'
-              placeholder='name@company.com'
-              type='email'
-              aria-label='Email address'
-              size='small'
+              variant='outlined'
+              placeholder='Email'
+              fullWidth
+              slotProps={{
+                input: {
+                  startAdornment: <IconMail />
+                }
+              }}
             />
-            <Button variant='contained' type='submit'>
-              Notify me
-            </Button>
+            <Button variant='contained'>Subscribe Now</Button>
           </Box>
         </Box>
       </Box>

@@ -1,41 +1,74 @@
 'use client'
 import { BlockWrapper, Button, TextField } from '@/luna/components'
-import { Box, Typography, FormControlLabel, Checkbox } from '@mui/material'
+import { Box, Typography } from '@mui/material'
+import { IconMail } from '@tabler/icons-react'
+import { Counter004 } from './_counter_004'
 
 export function EmailOptIn010() {
   return (
     <BlockWrapper>
-      <Box sx={{ paddingY: { xs: 4, md: 8 } }}>
-        <Box sx={{ maxWidth: 720, margin: '0 auto', textAlign: 'center' }}>
-          <Typography variant='headlineSmall'>Get curated content</Typography>
-          <Typography variant='bodySmall' color='textSecondary' sx={{ mb: 2 }}>
-            We send selected articles and resources — no spam.
-          </Typography>
+      <Box
+        sx={{
+          paddingY: { xs: '24px', md: '40px', lg: '64px' },
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '24px'
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '32px',
+            width: '100%',
+            maxWidth: '800px',
+            margin: 'auto'
+          }}
+        >
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '4px',
+              margin: 'auto',
+              alignItems: 'center'
+            }}
+          >
+            <Typography variant='titleSmall' color='textDisabled'>
+              Stay in the loop
+            </Typography>
+
+            <Typography variant='headlineLarge' color='textPrimary'>
+              Subscribe to our newsletter
+            </Typography>
+
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Get the latest updates, new components, and design tips straight
+              to your inbox.
+            </Typography>
+          </Box>
+
+          <Counter004 />
 
           <Box
-            component='form'
-            onSubmit={e => e.preventDefault()}
-            sx={{ display: 'grid', gap: 1 }}
+            sx={{
+              display: 'flex',
+              flexDirection: { xs: 'column', md: 'row' },
+              width: '100%',
+              gap: '16px'
+            }}
           >
             <TextField
-              label='Email address'
-              placeholder='name@company.com'
-              type='email'
-              aria-label='Email address'
-              size='small'
+              variant='outlined'
+              placeholder='Email'
               fullWidth
+              slotProps={{
+                input: {
+                  startAdornment: <IconMail />
+                }
+              }}
             />
-            <FormControlLabel
-              control={<Checkbox size='small' />}
-              label={
-                <Typography variant='bodySmall'>
-                  I agree to receive emails
-                </Typography>
-              }
-            />
-            <Button variant='contained' type='submit'>
-              Subscribe
-            </Button>
+            <Button variant='contained'>Subscribe Now</Button>
           </Box>
         </Box>
       </Box>

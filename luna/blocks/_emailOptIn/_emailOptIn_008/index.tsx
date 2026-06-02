@@ -1,47 +1,157 @@
 'use client'
-import { BlockWrapper, Button, TextField } from '@/luna/components'
-import { Box, Typography } from '@mui/material'
+import { BlockWrapper, Button, Checkbox, TextField } from '@/luna/components'
+import { Box, Typography, useTheme } from '@mui/material'
+import { IconMail, IconUser } from '@tabler/icons-react'
 
 export function EmailOptIn008() {
+  const theme = useTheme()
+
   return (
-    <BlockWrapper>
-      <Box
-        sx={{
-          paddingY: { xs: 3, md: 6 },
-          borderTop: '1px solid',
-          borderColor: 'divider'
-        }}
-      >
+    <BlockWrapper fullWidth>
+      <Box sx={{ paddingY: { xs: '24px', md: '40px' } }}>
         <Box
           sx={{
-            maxWidth: 820,
-            margin: '0 auto',
             display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center'
+            flexDirection: { xs: 'column', md: 'row' },
+            gap: '24px',
+            alignItems: 'center',
+            justifyContent: 'space-between'
           }}
         >
-          <Box>
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <Typography variant='titleSmall' color='textDisabled'>
-              Stay in the loop
+              Stop reinventing the wheel
             </Typography>
-            <Typography variant='headlineSmall'>Monthly highlights</Typography>
+
+            <Typography variant='headlineLarge' color='textPrimary'>
+              Build Once, Use Everywhere
+            </Typography>
+
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Save time and reduce repetition. With a system built on reusable
+              components, you can create once and reuse across all your projects
+              — without losing control over the details.
+            </Typography>
+
+            <Box>
+              <Box>
+                <Checkbox
+                  checked
+                  disableFocusRipple
+                  disableRipple
+                  disableTouchRipple
+                />
+                <Typography
+                  variant='labelMedium'
+                  color='textPrimary'
+                  display='inline'
+                >
+                  Page Design and Optimization
+                </Typography>
+              </Box>
+
+              <Box>
+                <Checkbox
+                  checked
+                  disableFocusRipple
+                  disableRipple
+                  disableTouchRipple
+                />
+                <Typography
+                  variant='labelMedium'
+                  color='textPrimary'
+                  display='inline'
+                >
+                  Content Management System Integration
+                </Typography>
+              </Box>
+
+              <Box>
+                <Checkbox
+                  checked
+                  disableFocusRipple
+                  disableRipple
+                  disableTouchRipple
+                />
+                <Typography
+                  variant='labelMedium'
+                  color='textPrimary'
+                  display='inline'
+                >
+                  Website Maintenance and Support
+                </Typography>
+              </Box>
+
+              <Box>
+                <Checkbox
+                  checked
+                  disableFocusRipple
+                  disableRipple
+                  disableTouchRipple
+                />
+                <Typography
+                  variant='labelMedium'
+                  color='textPrimary'
+                  display='inline'
+                >
+                  Web Compliance Services
+                </Typography>
+              </Box>
+            </Box>
           </Box>
 
           <Box
-            component='form'
-            onSubmit={e => e.preventDefault()}
-            sx={{ display: 'flex', gap: 1 }}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '16px',
+              backgroundColor: theme.palette.background.paper,
+              padding: '24px',
+              borderRadius: '24px',
+              width: '100%',
+              maxWidth: '360px'
+            }}
           >
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '4px',
+                mb: '8px'
+              }}
+            >
+              <Typography variant='headlineSmall' color='textPrimary'>
+                Subscribe to our newsletter
+              </Typography>
+
+              <Typography variant='bodyMedium' color='textSecondary'>
+                Get the latest updates, new components, and design tips straight
+                to your inbox.
+              </Typography>
+            </Box>
+
             <TextField
-              label='Email address'
-              placeholder='name@company.com'
-              type='email'
-              aria-label='Email address'
-              size='small'
+              variant='outlined'
+              placeholder='Name'
+              slotProps={{
+                input: {
+                  startAdornment: <IconUser />
+                }
+              }}
             />
-            <Button variant='contained' type='submit'>
-              Get updates
+
+            <TextField
+              variant='outlined'
+              placeholder='Email'
+              slotProps={{
+                input: {
+                  startAdornment: <IconMail />
+                }
+              }}
+            />
+
+            <Button variant='contained' sx={{ width: '100%' }}>
+              Subscribe Now
             </Button>
           </Box>
         </Box>

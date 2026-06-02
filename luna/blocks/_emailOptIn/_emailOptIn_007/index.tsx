@@ -1,47 +1,82 @@
 'use client'
 import { BlockWrapper, Button, TextField } from '@/luna/components'
 import { Box, Typography } from '@mui/material'
+import { IconMail } from '@tabler/icons-react'
+import Image from 'next/image'
+import image from '@/public/assets/image-placeholder.jpg'
 
 export function EmailOptIn007() {
   return (
     <BlockWrapper>
-      <Box sx={{ paddingY: { xs: 4, md: 8 } }}>
+      <Box sx={{ paddingY: { xs: '24px', md: '40px', lg: '64px' } }}>
         <Box
           sx={{
-            maxWidth: 900,
-            margin: '0 auto',
             display: 'flex',
-            gap: 4,
-            alignItems: 'center'
+            flexDirection: 'column',
+            gap: '24px',
+            alignItems: 'center',
+            textAlign: 'center',
+            width: '100%',
+            maxWidth: '720px',
+            margin: 'auto'
           }}
         >
-          <Box sx={{ flex: 1 }}>
-            <Typography variant='headlineSmall'>
-              Tips, patterns, and updates
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '4px'
+            }}
+          >
+            <Typography variant='titleSmall' color='textDisabled'>
+              Stay in the loop
             </Typography>
-            <Typography variant='bodySmall' color='textSecondary'>
-              Delivered every Monday.
+
+            <Typography variant='headlineLarge' color='textPrimary'>
+              Subscribe to our newsletter
+            </Typography>
+
+            <Typography variant='bodyMedium' color='textSecondary'>
+              Get the latest updates, new components, and design tips straight
+              to your inbox.
             </Typography>
           </Box>
 
           <Box
-            component='form'
-            onSubmit={e => e.preventDefault()}
-            sx={{ display: 'flex', gap: 1 }}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              width: '100%',
+              maxWidth: '400px',
+              gap: '16px'
+            }}
           >
             <TextField
-              label='Email address'
-              placeholder='name@company.com'
-              type='email'
-              aria-label='Email address'
-              size='small'
+              variant='outlined'
+              placeholder='Email'
+              slotProps={{
+                input: {
+                  startAdornment: <IconMail />
+                }
+              }}
             />
-            <Button variant='contained' type='submit'>
-              Subscribe
+            <Button variant='contained' sx={{ width: '100%' }}>
+              Subscribe Now
             </Button>
           </Box>
         </Box>
       </Box>
+
+      <Image
+        src={image}
+        alt=''
+        style={{
+          objectFit: 'cover',
+          borderRadius: '12px',
+          height: '240px',
+          width: '100%'
+        }}
+      />
     </BlockWrapper>
   )
 }
